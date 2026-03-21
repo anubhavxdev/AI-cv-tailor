@@ -1,0 +1,167 @@
+%% Exact replica of Anubhav Jaiswal's CV
+%% Colors extracted directly from source PDF:
+%%   #2C2D92 — name, section headers, institution names, bold labels
+%%   #17365D — hyperlinks
+%%   Black   — body text
+%% Font: Arial (helvet package)
+
+\documentclass[10pt, a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[
+  top=0.5in,
+  bottom=0.5in,
+  left=0.65in,
+  right=0.65in
+]{geometry}
+
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{microtype}
+
+%% Exact PDF colors
+\definecolor{headingblue}{RGB}{44,45,146}
+\definecolor{linknavy}{RGB}{23,54,93}
+
+\hypersetup{colorlinks=true, urlcolor=linknavy, linkcolor=linknavy}
+
+%% Section heading: small caps, colored, rule beneath
+\titleformat{\section}
+  {\color{headingblue}\fontsize{9.5pt}{11pt}\selectfont\scshape}
+  {}{0em}{}
+  [\color{headingblue}\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+%% Tight bullet lists
+\setlist[itemize]{leftmargin=1.4em, itemsep=1pt, parsep=0pt, topsep=2pt, label=\textbullet}
+
+%% Job/project row: bold colored left, date right
+\newcommand{\entryrow}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}X@{\hspace{4pt}}r@{}}
+    {\color{headingblue}\bfseries\fontsize{8.5pt}{10pt}\selectfont #1} &
+    {\fontsize{8.5pt}{10pt}\selectfont #2}
+  \end{tabularx}\par\vspace{1pt}%
+}
+
+%% Education institution row
+\newcommand{\instituterow}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}X@{\hspace{4pt}}r@{}}
+    {\color{headingblue}\bfseries\fontsize{10pt}{12pt}\selectfont #1} &
+    {\fontsize{8.5pt}{10pt}\selectfont #2}
+  \end{tabularx}%
+}
+
+\begin{document}
+
+%% ── HEADER ───────────────────────────────────────────────────────────
+{\color{headingblue}\bfseries\fontsize{18pt}{22pt}\selectfont Anubhav Jaiswal}\par
+\vspace{3pt}
+\begin{tabularx}{\linewidth}{@{}X@{}r@{}}
+  {\fontsize{8.5pt}{10pt}\selectfont LinkedIn:~\href{https://www.linkedin.com/in/anubhavxdev}{https://www.linkedin.com/in/anubhavxdev}} &
+  {\fontsize{8.5pt}{10pt}\selectfont Email:~\href{mailto:anubhavjaiswal1803@gmail.com}{anubhavjaiswal1803@gmail.com}} \\[1pt]
+  {\fontsize{8.5pt}{10pt}\selectfont GitHub:~\href{https://github.com/anubhavxdev}{https://github.com/anubhavxdev}} &
+  {\fontsize{8.5pt}{10pt}\selectfont Mobile:~+91-7980921124}
+\end{tabularx}
+
+%% ── SKILLS ───────────────────────────────────────────────────────────
+\section{Skills}
+% START_SKILLS
+\begin{itemize}
+  \item {\color{headingblue}\bfseries Languages}:\enspace JavaScript (ES6+), Python, Java, C++, SQL, HTML5/CSS3
+  \item {\color{headingblue}\bfseries Frameworks}:\enspace React.js, Node.js, Express.js, Next.js, Tailwind CSS, Bootstrap
+  \item {\color{headingblue}\bfseries Databases}:\enspace MongoDB, MySQL, PostgreSQL
+  \item {\color{headingblue}\bfseries Tools/Platforms}:\enspace Git, GitHub, Docker, AWS (S3, EC2), Postman, Vercel, Linux
+  \item {\color{headingblue}\bfseries Technical Skills}:\enspace RESTful API Design, Data Structures and Algorithms (DSA), System Design, CI/CD
+  \item {\color{headingblue}\bfseries Soft Skills}:\enspace Agile Collaboration, Problem Solving, Technical Documentation
+\end{itemize}
+% END_SKILLS
+
+%% ── EXPERIENCE ───────────────────────────────────────────────────────
+\section{Experience}
+% START_EXPERIENCE
+\entryrow{Software Developer Intern \textbar{} Division of Infotech, LPU}{Jan' 26 -- Present}
+\begin{itemize}
+  \item Architected and integrated high-performance UI components using \textbf{React.js} and \textbf{Next.js}, improving application load speeds by \textbf{25\%}.
+  \item Developed and optimized \textbf{RESTful APIs} using Node.js, facilitating seamless data exchange for a University Management System serving thousands of users.
+  \item Collaborated with cross-functional teams to debug and resolve critical production issues, maintaining \textbf{99.9\% system uptime}.
+  \item Implemented efficient state management and reusable logic, reducing code redundancy by \textbf{15\%} across the codebase.
+\end{itemize}
+
+\vspace{5pt}
+\entryrow{Technical Lead \textbar{} AWS Cloud Community}{Aug' 24 -- Dec' 25}
+\begin{itemize}
+  \item Spearheaded technical workshops for \textbf{500+ students} on AWS infrastructure, cloud deployment strategies, and scalable system design.
+  \item Guided student teams in deploying full-stack applications on \textbf{AWS EC2}, utilizing \textbf{Docker} containers to ensure environment consistency.
+  \item Mentored junior developers in \textbf{Git version control} workflows, resulting in a \textbf{30\% improvement} in collective project delivery speed.
+\end{itemize}
+% END_EXPERIENCE
+
+%% ── PROJECTS ─────────────────────────────────────────────────────────
+\section{Projects}
+% START_PROJECTS
+\entryrow{EventManager \textbar{} Full-Stack Event System \textbar{}~\href{https://github.com/anubhavxdev}{\textcolor{linknavy}{\ensuremath{\mathcal{P}}}}}{Sept' 25 -- Oct' 25}
+\begin{itemize}
+  \item Engineered a scalable \textbf{MERN stack} application featuring automated QR-based ticket generation and real-time attendee registration.
+  \item Designed robust \textbf{MongoDB} schemas and \textbf{RESTful APIs} to handle concurrent user requests, ensuring sub-200ms response times.
+  \item Implemented \textbf{JWT-based authentication} and secure role-based access control (RBAC) to manage organizer and attendee permissions.
+\end{itemize}
+
+\vspace{5pt}
+\entryrow{TravelEase \textbar{} Responsive Travel Platform \textbar{}~\href{https://github.com/anubhavxdev}{\textcolor{linknavy}{\ensuremath{\mathcal{P}}}}}{July' 25 -- Aug' 25}
+\begin{itemize}
+  \item Developed a dynamic travel planning interface using \textbf{JavaScript} and \textbf{React.js}, focusing on mobile-first responsive design.
+  \item Optimized frontend performance through lazy loading and asset compression, achieving a \textbf{90+ Lighthouse score} for accessibility and SEO.
+  \item Integrated external travel APIs to provide real-time booking data, utilizing \textbf{Git} for robust version control and feature branching.
+\end{itemize}
+% END_PROJECTS
+
+%% ── CERTIFICATES ─────────────────────────────────────────────────────
+\section{Certificates}
+
+\begin{itemize}[itemsep=5pt]
+  \item GitHub Foundations \textbar{} Github \textbar{} \href{https://github.com/anubhavxdev}{\textcolor{linknavy}{Certificate}}
+        \hfill {\fontsize{8.5pt}{10pt}\selectfont Dec' 25}
+  \item Cloud Infrastructure 2024 Certified - Associate \textbar{} Oracle \textbar{} \href{https://github.com/anubhavxdev}{\textcolor{linknavy}{Certificate}}
+        \hfill {\fontsize{8.5pt}{10pt}\selectfont Nov' 25}
+  \item Red Hat System Administration 1 (RH 124) \textbar{} Red Hat \textbar{} \href{https://github.com/anubhavxdev}{\textcolor{linknavy}{Certificate}}
+        \hfill {\fontsize{8.5pt}{10pt}\selectfont Sep' 25}
+\end{itemize}
+
+%% ── ACHIEVEMENTS ─────────────────────────────────────────────────────
+\section{Achievements}
+
+\begin{itemize}
+  \item \textbf{Winner -- AI/ML Track, InnovateX Hackathon (IIIT Kalyani):} Developed and deployed a machine learning solution addressing a real-world problem, demonstrating strong system design and execution skills.
+  \item \textbf{Technical Lead -- AWS Cloud Community:} Led 10+ workshops on AWS cloud and system design concepts.
+  \item Solved \textbf{200+ Data Structures and Algorithms} problems on \textbf{LeetCode} and \textbf{GeeksforGeeks}, strengthening problem solving and optimization skills.
+\end{itemize}
+
+%% ── EDUCATION ────────────────────────────────────────────────────────
+\section{Education}
+\vspace{4pt}
+\begin{itemize}[itemsep=8pt]
+
+  \item
+    \instituterow{Lovely Professional University}{Punjab, India}\\[1pt]
+    {\fontsize{8.5pt}{10pt}\selectfont Bachelor of Technology \hfill Aug' 23 -- Present}\\
+    {\fontsize{8.5pt}{10pt}\selectfont Computer Science and Engineering: CGPA: 7.8}
+
+  \item
+    \instituterow{St Augustine Day's School}{Kolkata, India}\\[1pt]
+    {\fontsize{8.5pt}{10pt}\selectfont Intermediate: PCM \hfill Apr' 22 -- Mar' 23}\\
+    {\fontsize{8.5pt}{10pt}\selectfont Percentage:\quad 88}
+
+\end{itemize}
+
+\end{document}
