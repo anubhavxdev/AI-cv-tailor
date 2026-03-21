@@ -5,7 +5,7 @@ from prompts import STRICT_PROMPT, IMPROVEMENT_PROMPT, FINAL_PROMPT
 # Configure Gemini API
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-flash-latest")
 
 # Read file helper
 def read_file(path):
@@ -19,7 +19,13 @@ def read_file(path):
 def ask(prompt):
     try:
         response = model.generate_content(prompt)
-        return response.text
+
+        if response and hasattr(response, "text") and response.text:
+            return response.text.strip()
+        else:
+            print("⚠️ Empty response:", response)
+            return "No response from model"
+
     except Exception as e:
         print("❌ ERROR:", e)
         return "Error generating response"
