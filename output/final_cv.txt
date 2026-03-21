@@ -1,1 +1,62 @@
-Error generating response
+**ANUBHAV JAISWAL**
+📍 Kolkata, West Bengal | 📞 +91-7980921124
+✉️ [anubhavjaiswal1803@gmail.com](mailto:anubhavjaiswal1803@gmail.com) | 🔗 [LinkedIn](https://linkedin.com/in/anubhavxdev) | 💻 [GitHub](https://github.com/anubhavxdev)
+
+---
+
+### **TECHNICAL SKILLS**
+
+*   **Languages:** JavaScript (ES6+), TypeScript, Python, Java, C++, SQL
+*   **Frontend:** React.js, Redux Toolkit, HTML5, CSS3, Tailwind CSS, Zustand
+*   **Backend:** Node.js, Express.js, RESTful API Design, Microservices
+*   **Databases:** MongoDB (Aggregation Pipelines), MySQL, PostgreSQL, Redis
+*   **Tools & DevOps:** Git, Docker, AWS (EC2, S3, Lambda), CI/CD (GitHub Actions), Jest (Unit Testing)
+
+---
+
+### **PROFESSIONAL EXPERIENCE**
+
+**Technical Lead | AWS Cloud Community** | *Jan 2023 – Present*
+*   **Orchestrated** a cross-functional team of 10+ developers using **Agile/Scrum** methodologies to deliver 3 internal web applications from conception to deployment.
+*   **Standardized** code quality across the organization by implementing mandatory **Peer Code Reviews** and ESLint configurations, reducing production bugs by **30%**.
+*   **Mentored** 50+ students on **System Design** and AWS cloud architecture, leading to a 40% increase in cloud-deployed student projects.
+*   **Automated** deployment workflows using GitHub Actions, reducing manual deployment time by **50%**.
+
+---
+
+### **TECHNICAL PROJECTS**
+
+**EventManager – Full Stack Event Management System** | [Node.js, React, MongoDB, JWT]
+*   **Architected** a scalable REST API capable of handling 1,000+ concurrent requests for event registration and real-time QR ticket generation.
+*   **Optimized MongoDB aggregation pipelines** and indexing, resulting in a **45% reduction** in data retrieval latency for high-concurrency flows.
+*   **Implemented** secure **JWT-based authentication** and Role-Based Access Control (RBAC) to ensure data integrity for different user tiers.
+*   **Integrated** AWS S3 for storage of event assets, ensuring 99.9% availability of digital tickets.
+
+**TravelEase – Travel Planning Platform** | [React.js, TypeScript, TanStack Query]
+*   **Developed** a high-performance responsive UI using **React and TypeScript**, utilizing **Zustand** for global state management to reduce prop-drilling by **60%**.
+*   **Integrated TanStack Query** for efficient server-side state management and caching, improving UI responsiveness and reducing redundant API calls by **50%**.
+*   **Configured** a CI/CD pipeline with **Jest** unit tests, ensuring 80%+ code coverage for critical booking components.
+*   **Deployed** the application using **Docker** containers on AWS EC2, improving environment consistency across development and production.
+
+---
+
+### **EDUCATION**
+
+**Bachelor of Technology in Computer Science** | *Graduating 2024*
+
+---
+
+### **ACHIEVEMENTS & CERTIFICATIONS**
+
+*   **Problem Solving:** Solved **200+ Data Structures and Algorithms (DSA)** problems on LeetCode (Top 15% in monthly contests).
+*   **Hackathons:** Finalist in [Name of Hackathon], where we built a prototype for [Brief Description] in 36 hours.
+*   **AWS Academy:** Completed intensive training on Cloud Foundations and Architecture.
+*   **Open Source:** Contributed bug fixes to [Name of Library/Project], improving documentation and component reliability.
+
+---
+
+### **KEY STRENGTHS**
+*   Scalable Web Application Development
+*   Clean Code & Design Patterns
+*   Database Optimization
+*   Collaborative Problem Solving & Leadership

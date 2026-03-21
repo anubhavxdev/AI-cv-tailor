@@ -1,1 +1,28 @@
-Error generating response
+This is a standard, cookie-cutter resume that would be filtered out by an ATS or a human recruiter at a top-tier company in less than six seconds. You are competing with candidates who have internships at FAANG, contributions to major open-source projects, and deep architectural knowledge.
+
+Here is the brutal reality of your application:
+
+### 1. Reasons for Rejection
+*   **Zero Professional Experience:** You are applying for an SDE role but have not held a single professional internship. A "Technical Lead" position at a student community is an extracurricular activity, not industry experience. It tells me nothing about your ability to work in a production environment with legacy code, code reviews, and tight deadlines.
+*   **"Tutorial-Level" Projects:** Your projects (EventManager, TravelEase) are generic. They look like clones of YouTube tutorials or bootcamp final assignments. There is no complexity, no scale, and no unique problem-solving.
+*   **Lack of Evidence for "Scalability":** The job description specifically asks for the ability to develop "scalable web applications." Your CV shows no evidence of handling high traffic, optimizing database queries, or implementing caching.
+*   **The "Basic" Trap:** You explicitly listed "Docker (basic)" and "AWS (basic)." At a top company, "basic" means "I don't actually know how to use this in production." Never advertise your weaknesses. If you can’t deploy a containerized microservice, don’t list Docker.
+
+### 2. Missing Skills
+*   **TypeScript:** You listed JavaScript, but top-tier companies have almost entirely migrated to TypeScript for scalable backend and frontend work. Your lack of TS is a significant red flag for "clean, maintainable code."
+*   **Testing Frameworks:** There is zero mention of Jest, Cypress, Mocha, or any testing methodology. I cannot hire an SDE who doesn't mention writing tests.
+*   **CI/CD Pipelines:** The JD asks for familiarity with CI/CD. You haven't mentioned GitHub Actions, Jenkins, or any deployment automation.
+*   **Advanced State Management:** For React.js, you haven't mentioned Redux, Zustand, or TanStack Query. This suggests your React knowledge is limited to basic hooks and prop drilling.
+*   **System Design:** While you mentioned "conducting workshops" on it, there is no evidence of you *applying* system design principles (load balancing, sharding, message queues like Redis/RabbitMQ) in your projects.
+
+### 3. Weaknesses
+*   **Low Impact Metrics:** Your bullet points are "tasks," not "achievements." 
+    *   *Weak:* "Used MongoDB for storing user data."
+    *   *Better:* "Optimized MongoDB schema design to reduce query latency by 40% for an event registration flow of 1,000+ users."
+*   **Weak DSA Standing:** You mentioned solving 200+ problems on LeetCode. For a top-tier company, this is the bare minimum—almost too low to brag about. Candidates we interview usually have 500+ problems solved or a high competitive programming rating (CodeForces/CodeChef).
+*   **Vague Tech Stack:** "TravelEase" uses HTML, CSS, and JS. This is 2010-era web development. It shows a lack of depth in "modern frameworks" requested by the JD.
+*   **No Deployment Reality:** You didn't mention where your projects are hosted or how they are managed. If they only live on your local machine or a basic Netlify drag-and-drop, you aren't ready for an SDE role at a high-growth company.
+
+### Verdict:
+**REJECTED.** 
+This resume belongs in the pile for a junior web dev role at a local agency, not a top-tier tech firm. To fix this, you need a real internship, projects that solve *actual* problems with complex data structures, and a total removal of the word "basic."
