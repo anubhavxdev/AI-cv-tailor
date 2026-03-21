@@ -1,14 +1,14 @@
 import os
 import google.generativeai as genai
-from prompts import STRICT_PROMPT, IMPROVEMENT_PROMPT, FINAL_PROMPT
+from prompts import STRICT_PROMPT, IMPROVEMENT_PROMPT, FINAL_PROMPT, LATEX_PROMPT
 
 # Configure API
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-# Use correct working model
+# Correct working model
 model = genai.GenerativeModel("gemini-flash-latest")
 
-# ---------------- FILE HELPERS ---------------- #
+# ---------------- FILE READ ---------------- #
 
 def read_file(path):
     try:
@@ -53,10 +53,11 @@ def ask(prompt):
         print("❌ ERROR:", e)
         return "Error generating response"
 
-# ---------------- MAIN LOGIC ---------------- #
+# ---------------- MAIN ---------------- #
 
 cv = read_file("input/cv.txt")
 jd = read_file("jobs/job1.txt")
+latex_template = read_file("templates/resume.tex")
 
 if not cv.strip() or not jd.strip():
     print("❌ CV or Job Description is empty!")
@@ -133,5 +134,25 @@ final_cv = ask(final_prompt)
 
 with open("output/final_cv.txt", "w", encoding="utf-8") as f:
     f.write(final_cv)
+
+# ---------------- LATEX UPDATE ---------------- #
+
+latex_prompt = f"""
+{LATEX_PROMPT}
+
+CANDIDATE DATA:
+{cv}
+
+JOB DESCRIPTION:
+{jd}
+
+LATEX TEMPLATE:
+{latex_template}
+"""
+
+updated_latex = ask(latex_prompt)
+
+with open("output/updated_resume.tex", "w", encoding="utf-8") as f:
+    f.write(updated_latex)
 
 print("🎉 All outputs generated successfully!")
