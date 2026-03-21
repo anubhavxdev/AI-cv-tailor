@@ -2,12 +2,14 @@ import os
 import google.generativeai as genai
 from prompts import STRICT_PROMPT, IMPROVEMENT_PROMPT, FINAL_PROMPT
 
-# Configure Gemini API
+# Configure API
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
+# Use correct working model
 model = genai.GenerativeModel("gemini-flash-latest")
 
-# Read file helper
+# ---------------- FILE HELPERS ---------------- #
+
 def read_file(path):
     try:
         with open(path, "r", encoding="utf-8") as f:
@@ -15,7 +17,28 @@ def read_file(path):
     except:
         return ""
 
-# Safe API call
+# ---------------- ATS SCORE ---------------- #
+
+def calculate_ats_score(cv, jd):
+    cv_words = set(cv.lower().split())
+    jd_words = set(jd.lower().split())
+
+    match = cv_words.intersection(jd_words)
+    score = (len(match) / len(jd_words)) * 100 if jd_words else 0
+
+    return round(score, 2)
+
+# ---------------- KEYWORD GAP ---------------- #
+
+def keyword_gap(cv, jd):
+    cv_words = set(cv.lower().split())
+    jd_words = set(jd.lower().split())
+
+    missing = jd_words - cv_words
+    return list(missing)[:20]
+
+# ---------------- GEMINI CALL ---------------- #
+
 def ask(prompt):
     try:
         response = model.generate_content(prompt)
@@ -30,19 +53,35 @@ def ask(prompt):
         print("❌ ERROR:", e)
         return "Error generating response"
 
-# Read inputs
+# ---------------- MAIN LOGIC ---------------- #
+
 cv = read_file("input/cv.txt")
 jd = read_file("jobs/job1.txt")
 
-# Ensure output folder exists
+if not cv.strip() or not jd.strip():
+    print("❌ CV or Job Description is empty!")
+
+# Create output folder
 os.makedirs("output", exist_ok=True)
 
-# Create empty files first (prevents GitHub error)
-open("output/analysis.txt", "w").close()
-open("output/improvements.txt", "w").close()
-open("output/final_cv.txt", "w").close()
+# ---------------- ATS SCORE ---------------- #
 
-# ----------- STEP 1: ANALYSIS ----------- #
+ats_score = calculate_ats_score(cv, jd)
+
+with open("output/ats_score.txt", "w") as f:
+    f.write(f"ATS Score: {ats_score}/100")
+
+# ---------------- KEYWORDS ---------------- #
+
+missing_keywords = keyword_gap(cv, jd)
+
+with open("output/keywords.txt", "w") as f:
+    f.write("Missing Keywords:\n")
+    for word in missing_keywords:
+        f.write(f"- {word}\n")
+
+# ---------------- ANALYSIS ---------------- #
+
 analysis_prompt = f"""
 {STRICT_PROMPT}
 
@@ -58,12 +97,16 @@ analysis = ask(analysis_prompt)
 with open("output/analysis.txt", "w", encoding="utf-8") as f:
     f.write(analysis)
 
-# ----------- STEP 2: IMPROVEMENTS ----------- #
+# ---------------- IMPROVEMENTS ---------------- #
+
 improvement_prompt = f"""
 {IMPROVEMENT_PROMPT}
 
 Analysis:
 {analysis}
+
+JOB DESCRIPTION:
+{jd}
 """
 
 improvements = ask(improvement_prompt)
@@ -71,7 +114,8 @@ improvements = ask(improvement_prompt)
 with open("output/improvements.txt", "w", encoding="utf-8") as f:
     f.write(improvements)
 
-# ----------- STEP 3: FINAL CV ----------- #
+# ---------------- FINAL CV ---------------- #
+
 final_prompt = f"""
 {FINAL_PROMPT}
 
@@ -90,4 +134,4 @@ final_cv = ask(final_prompt)
 with open("output/final_cv.txt", "w", encoding="utf-8") as f:
     f.write(final_cv)
 
-print("🎉 Process Completed Successfully")
+print("🎉 All outputs generated successfully!")
