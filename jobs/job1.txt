@@ -1,0 +1,20 @@
+Software Development Engineer (SDE)
+
+Requirements:
+- Strong proficiency in JavaScript and modern frameworks (React.js, Node.js)
+- Experience with REST APIs and backend development
+- Knowledge of databases like MongoDB or MySQL
+- Understanding of data structures and algorithms
+- Experience with Git and version control
+- Familiarity with cloud platforms (AWS preferred)
+
+Responsibilities:
+- Develop scalable web applications
+- Write clean, maintainable, and efficient code
+- Collaborate with cross-functional teams
+- Optimize application performance
+- Debug and troubleshoot issues
+
+Preferred:
+- Internship or project experience in full stack development
+- Knowledge of Docker and CI/CD pipelines

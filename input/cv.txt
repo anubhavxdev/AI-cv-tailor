@@ -1,0 +1,35 @@
+Anubhav Jaiswal
+
+Email: anubhavjaiswal1803@gmail.com
+Phone: +91-7980921124
+LinkedIn: https://linkedin.com/in/anubhavxdev
+GitHub: https://github.com/anubhavxdev
+
+EDUCATION
+Bachelor of Technology in Computer Science
+
+SKILLS
+Languages: JavaScript, Python, Java
+Frameworks: React.js, Node.js, Express.js
+Databases: MongoDB, MySQL
+Tools: Git, Docker (basic), AWS (basic)
+
+PROJECTS
+
+EventManager – Full Stack Event Management System
+- Built a platform for users to register for events and download QR-based tickets
+- Implemented backend using Node.js and Express
+- Used MongoDB for storing user and event data
+
+TravelEase – Travel Planning Website
+- Developed frontend using HTML, CSS, JavaScript
+- Designed responsive UI for travel booking experience
+
+EXPERIENCE
+Technical Lead – AWS Cloud Community
+- Conducted workshops on cloud computing and system design
+- Guided students on AWS services and deployment
+
+ACHIEVEMENTS
+- Solved 200+ DSA problems on LeetCode
+- Participated in hackathons and coding contests
