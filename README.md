@@ -1,29 +1,21 @@
 <div align="center">
 
-<br/>
+<br />
 
-```
-   ______  _    __   _____      _  __          __
-  / ____/ | |  / /  / ___/     | |/ /    ___  / /___
- / /      | | / /   \__ \      |   /    / _ \/ // _ \
-/ /___    | |/ /   ___/ /     /   |    /  __/ // ___/
-\____/    |___/   /____/     /_/|_|    \___/_//_/
-```
-
-# AI CV Tailor
-
-### ATS-Optimized Resume Intelligence. LaTeX-Safe. GitHub-Native.
-
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Gemini API](https://img.shields.io/badge/Gemini_API-Google_AI-4285F4?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev)
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/features/actions)
-[![LaTeX](https://img.shields.io/badge/LaTeX-Template_Safe-008080?style=flat-square&logo=latex&logoColor=white)](https://www.latex-project.org)
-[![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/anubhavxdev/ai-cv-tailor?style=flat-square&color=f59e0b)](https://github.com/anubhavxdev/ai-cv-tailor/stargazers)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=AI%20CV%20Tailor&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Stop%20embarrassing%20yourself%20with%20generic%20resumes.&descAlignY=55&descSize=16" width="100%"/>
 
 <br/>
 
-> **Push your CV. Push a job description. Get a recruiter-ready, ATS-optimized resume — automatically.**
+> ### *"You spent 3 hours tailoring that resume. The ATS rejected it in 0.3 seconds."*
+> **There's a better way.**
+
+<br/>
+
+[![Made with Python](https://img.shields.io/badge/Built_with-Python_3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Powered by Gemini](https://img.shields.io/badge/AI-Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev)
+[![GitHub Actions](https://img.shields.io/badge/Automated-GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![LaTeX Safe](https://img.shields.io/badge/LaTeX-Template_Safe-008080?style=for-the-badge&logo=latex&logoColor=white)](https://latex-project.org)
+[![License MIT](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
 
 <br/>
 
@@ -31,101 +23,161 @@
 
 ---
 
-## The Problem
+<div align="center">
 
-Every serious job application demands a tailored resume. Most candidates either skip this entirely or spend hours doing it manually — neither works.
+## Are you tired of this?
 
-| Pain Point | Reality |
-|---|---|
-| Generic resumes | Rejected before a human sees them |
-| Manual tailoring | Takes 1–2 hours per application |
-| ATS blind spots | 75% of resumes never reach a recruiter |
-| LaTeX templates | Hard to edit without breaking formatting |
+</div>
 
-**AI CV Tailor solves all four.** In one push.
+```
+Monday 11:47 PM.
+
+You: *opens job description*
+You: *opens resume*
+You: *stares at screen for 20 minutes*
+You: *changes one bullet point*
+You: *calls it "tailored"*
+ATS: lol no
+Recruiter: never sees it
+You: "why am I not getting callbacks"
+```
+
+**Yeah. We built this for you.**
 
 ---
 
-## How It Works
+<div align="center">
+
+## What AI CV Tailor Does
+
+### Push your resume. Push a job description. Go touch grass.
+
+</div>
+
+<br/>
 
 ```
-You push two files.  The system does the rest.
+┌──────────────────────────────────────────────────────────────────┐
+│                                                                    │
+│    YOU                        AI CV TAILOR           OUTPUT       │
+│                                                                    │
+│  cv.txt ──────────────►  ┌─────────────────┐                     │
+│  job1.txt ─────────────► │  Gemini Analysis │ ──► ATS Score       │
+│  resume.tex ───────────► │  Keyword Engine  │ ──► Gap Report      │
+│                           │  LaTeX Patcher  │ ──► Tailored CV     │
+│  git push ─────────────► └─────────────────┘ ──► Updated .tex    │
+│                                   │                               │
+│                            GitHub Actions                         │
+│                           (does it all, automatically)            │
+│                                                                    │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
-```
-┌─────────────────────────────────────────────────────┐
-│                     YOUR INPUT                       │
-│                                                      │
-│   input/cv.txt          jobs/job1.txt               │
-│   └─ Your resume        └─ Target job description   │
-│                                                      │
-│   templates/resume.tex                              │
-│   └─ Your LaTeX template (university / standard)    │
-└───────────────────────┬─────────────────────────────┘
-                        │  git push
-                        ▼
-┌─────────────────────────────────────────────────────┐
-│                 GITHUB ACTIONS CI/CD                 │
-│                                                      │
-│   ① Gemini API — Recruiter-level CV analysis        │
-│   ② ATS scoring engine — keyword match %            │
-│   ③ Gap detection — missing skills & keywords       │
-│   ④ Improvement generator — verbs, metrics, impact  │
-│   ⑤ LaTeX patch engine — marker-safe content swap   │
-└───────────────────────┬─────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────┐
-│                    YOUR OUTPUTS                      │
-│                                                      │
-│   analysis.txt          improvements.txt            │
-│   └─ Rejection reasons  └─ Specific fixes           │
-│                                                      │
-│   ats_score.txt         keywords.txt                │
-│   └─ Match percentage   └─ Missing ATS keywords     │
-│                                                      │
-│   final_cv.txt          updated_resume.tex          │
-│   └─ Optimized CV       └─ Patched LaTeX file       │
-└─────────────────────────────────────────────────────┘
-```
+No dashboard to learn. No subscription to forget about. No "premium plan" holding your resume hostage.
+**Just push and get results.**
 
 ---
 
-## Features
+## The Brutal Truth About Your Resume
 
-### Recruiter-Level Analysis
-Simulates a strict recruiter evaluating your resume against the job description. Surfaces exact rejection reasons, weak bullet points, and skill gaps — not generic advice.
+Before AI CV Tailor, your resume probably looks like this:
 
-### ATS Score Engine
-Calculates a quantified match score between your resume and the job description. Gives you a clear benchmark before you apply.
+```diff
+- "Worked on backend APIs"           ← what does this even mean
+- "Helped with deployment process"   ← helped? helped how??
+- "Familiar with Docker"             ← familiar = never used in prod
+- "Good communication skills"        ← everyone writes this. everyone.
+- Skills: Python, Java, C++, React, Angular, Vue, AWS, Azure, GCP  ← pick a lane
+```
 
-### Keyword Gap Detection
-Identifies every ATS-critical keyword in the job description that is absent from your resume. Directly impacts your ranking in applicant tracking systems.
+After:
 
-### AI-Generated Improvements
-Produces concrete, drop-in suggestions: stronger action verbs, quantified impact statements, restructured bullet points, and role-specific terminology.
+```diff
++ "Engineered 12 REST API endpoints with Node.js, cutting avg response time by 40%"
++ "Automated CI/CD pipeline via GitHub Actions, reducing deployment time from 45 min to 8 min"
++ "Containerized 3 microservices with Docker, deployed to AWS ECS with zero-downtime rollouts"
++ "Led cross-functional sprint planning for a team of 6, shipping 3 features ahead of schedule"
+```
 
-### LaTeX Template Optimization
-The standout feature. Works with rigid LaTeX templates — the kind universities and institutions mandate — using a marker-based patching system:
+**That's the difference between a rejection and an interview.**
+
+---
+
+## Features That Actually Matter
+
+<br/>
+
+### Recruiter-Level Analysis — *"Why your CV gets thrown in the bin"*
+
+The AI doesn't sugarcoat it. It simulates a strict recruiter with 200 CVs in the inbox and tells you:
+
+- Exact reasons your resume would be rejected
+- Which bullet points are weak and why
+- Skills you're missing that are non-negotiable for the role
+- ATS landmines you didn't even know existed
+
+<br/>
+
+### ATS Score Engine — *"The robot that decides your fate before any human does"*
+
+Gets you a hard match score between your resume and the job description.
+
+```
+ATS Match Score: 58/100   ← this is why you're not hearing back
+ATS Match Score: 91/100   ← this is how you get the callback
+```
+
+<br/>
+
+### Keyword Gap Detection — *"Words that get you hired vs words that don't"*
+
+Pulls every high-frequency keyword from the job description and tells you exactly what's missing from your resume. ATS systems rank by keyword density. Now you know what to add.
+
+<br/>
+
+### AI-Generated Tailored Resume — *"What your resume should have looked like from the start"*
+
+Generates a fully optimized, job-specific resume with:
+- Action verbs that aren't "assisted" or "helped"
+- Quantified impact (%, $, time saved, users served)
+- Clean, ATS-readable structure
+- Keywords that actually match the role
+
+<br/>
+
+### LaTeX Template Optimization — *"The feature no one else built"*
+
+This is the one that required actual engineering.
+
+Every other AI resume tool either outputs plain text or destroys your LaTeX formatting. Useless if you're using a university template or a standardized format your institution mandates.
+
+AI CV Tailor patches your LaTeX file using comment markers — updating only content, never touching structure:
 
 ```latex
 % START_SKILLS
-  \item Python, Node.js, AWS, Docker
+  \item Python, Node.js, AWS, Docker, TypeScript   ← AI updates this
 % END_SKILLS
 
 % START_EXPERIENCE
-  \item Built REST APIs serving 10k+ requests/day
+  \item Engineered REST APIs serving 50k+ daily requests   ← and this
 % END_EXPERIENCE
 
 % START_PROJECTS
-  \item Developed full-stack SaaS platform with CI/CD pipeline
+  \item Built full-stack SaaS with CI/CD, Docker, and Stripe   ← and this
 % END_PROJECTS
 ```
 
-The engine updates content within markers only. Structure, formatting, and layout remain completely intact.
+Everything outside the markers? **Untouched.** Your formatting, packages, page layout — all intact.
 
-### Fully Automated Pipeline
-Triggered on every push via GitHub Actions. No manual steps. No local setup required after initial configuration.
+<br/>
+
+### Fully Automated via GitHub Actions — *"Set it up once, use it forever"*
+
+```bash
+git push   # that's it. that's the whole workflow.
+```
+
+No Python environment to maintain. No API keys to juggle locally. Push and outputs appear automatically in your repo artifacts.
 
 ---
 
@@ -135,54 +187,40 @@ Triggered on every push via GitHub Actions. No manual steps. No local setup requ
 ai-cv-tailor/
 │
 ├── input/
-│   └── cv.txt                  # Your current resume (plain text)
+│   └── cv.txt                    # Your current resume (plain text)
 │
 ├── jobs/
-│   └── job1.txt                # Target job description
+│   └── job1.txt                  # The job description you're targeting
 │
 ├── templates/
-│   └── resume.tex              # Your LaTeX resume template
+│   └── resume.tex                # Your LaTeX template (with markers)
 │
-├── output/
-│   ├── analysis.txt            # Recruiter analysis + rejection reasons
-│   ├── improvements.txt        # Suggested improvements
-│   ├── final_cv.txt            # AI-optimized resume content
-│   ├── ats_score.txt           # ATS match score
-│   ├── keywords.txt            # Missing keywords list
-│   └── updated_resume.tex      # Patched LaTeX resume
+├── output/                       # Auto-generated on every push
+│   ├── analysis.txt              # The brutal recruiter report
+│   ├── improvements.txt          # Exactly what to fix and how
+│   ├── final_cv.txt              # The optimized resume
+│   ├── ats_score.txt             # Your match percentage
+│   ├── keywords.txt              # What keywords you were missing
+│   └── updated_resume.tex        # Your LaTeX resume, patched and ready
 │
 ├── scripts/
-│   ├── analyze.py              # CV analysis module
-│   ├── score.py                # ATS scoring engine
-│   ├── improve.py              # Improvement generator
-│   ├── patch_latex.py          # LaTeX marker-based patcher
-│   └── main.py                 # Orchestration entry point
+│   ├── analyze.py                # Gemini analysis module
+│   ├── score.py                  # ATS scoring engine
+│   ├── improve.py                # Improvement generator
+│   ├── patch_latex.py            # Marker-based LaTeX patcher
+│   └── main.py                   # Orchestration entry point
 │
-├── .github/
-│   └── workflows/
-│       └── cv_pipeline.yml     # GitHub Actions workflow
+├── .github/workflows/
+│   └── cv_pipeline.yml           # The automation that runs it all
 │
-├── requirements.txt
-└── README.md
+└── requirements.txt
 ```
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Language | Python 3.11+ |
-| AI Engine | Google Gemini API |
-| Automation | GitHub Actions |
-| Resume Format | LaTeX |
-| Output Formats | `.txt`, `.tex` |
 
 ---
 
 ## Getting Started
 
-**1. Fork or clone this repository**
+**1. Fork this repo**
 
 ```bash
 git clone https://github.com/anubhavxdev/ai-cv-tailor.git
@@ -192,63 +230,65 @@ cd ai-cv-tailor
 **2. Add your Gemini API key as a GitHub Secret**
 
 ```
-Settings → Secrets and variables → Actions → New repository secret
-Name: GEMINI_API_KEY
+Repository → Settings → Secrets and variables → Actions → New secret
+
+Name : GEMINI_API_KEY
+Value: your_key_here
 ```
 
-**3. Add your files**
+**3. Drop your files in**
 
 ```bash
-# Paste your current resume
+# Your current resume
 nano input/cv.txt
 
-# Paste the job description you're targeting
+# The job you actually want
 nano jobs/job1.txt
 
-# Add your LaTeX resume template with markers
-cp your_resume.tex templates/resume.tex
+# Your LaTeX template (add the markers — see below)
+cp my_resume.tex templates/resume.tex
 ```
 
 **4. Push**
 
 ```bash
 git add .
-git commit -m "add cv and job description"
+git commit -m "time to stop getting rejected"
 git push
 ```
 
-The GitHub Actions pipeline runs automatically. Outputs appear in the `output/` directory of the workflow artifacts.
+Watch the Actions tab. Come back to a folder full of outputs.
 
 ---
 
-## LaTeX Marker Setup
+## Setting Up LaTeX Markers
 
-Add the following comment markers to your LaTeX template to enable safe content patching:
+Add these comment markers anywhere in your `.tex` file:
 
 ```latex
-\section{Skills}
+\section{Technical Skills}
 \begin{itemize}
 % START_SKILLS
-  \item Your current skills here
+  \item Add your skills here
 % END_SKILLS
 \end{itemize}
 
 \section{Experience}
 \begin{itemize}
 % START_EXPERIENCE
-  \item Your current experience here
+  \item Add your experience here
 % END_EXPERIENCE
 \end{itemize}
 
 \section{Projects}
 \begin{itemize}
 % START_PROJECTS
-  \item Your current projects here
+  \item Add your projects here
 % END_PROJECTS
 \end{itemize}
 ```
 
-Everything outside the markers is untouched. The patcher only replaces content between the `START_*` and `END_*` comment pairs.
+The patcher replaces only what's inside the markers. Your document class, packages, header, footer, and every other line — completely safe.
 
 ---
 
@@ -256,74 +296,110 @@ Everything outside the markers is untouched. The patcher only replaces content b
 
 **`ats_score.txt`**
 ```
-ATS Match Score: 73/100
+══════════════════════════════════════
+  ATS MATCH SCORE: 79 / 100
+══════════════════════════════════════
 
-Matched Keywords : React, Node.js, REST API, MongoDB, Git
-Missing Keywords : TypeScript, CI/CD, Docker, Agile, Jest
+  Matched  →  React, Node.js, MongoDB, REST API, Git, AWS
+  Missing  →  TypeScript, Docker, CI/CD, Agile, Jest, Redis
+
+  Verdict  →  Strong match. Add missing keywords to cross 90.
+══════════════════════════════════════
 ```
 
 **`analysis.txt`**
 ```
-REJECTION RISK: MEDIUM-HIGH
-
-1. No measurable impact in experience bullets
-2. Missing 5 high-frequency ATS keywords for this role
-3. Skills section does not reflect job-required technologies
-4. Project descriptions lack scope and outcome data
+RECRUITER SIMULATION — REJECTION ANALYSIS
+──────────────────────────────────────────
+[HIGH RISK] No quantified impact in any experience bullet
+[HIGH RISK] 6 ATS-critical keywords absent from resume
+[MEDIUM]    Skills section includes tools not relevant to this role
+[MEDIUM]    Project descriptions missing scope, scale, and outcome
+[LOW]       Summary section is too generic — reads like a template
 ```
 
 **`improvements.txt`**
 ```
-BULLET POINT IMPROVEMENTS
+BULLET REWRITES
+───────────────
+BEFORE → "Worked on the company's internal dashboard"
+AFTER  → "Rebuilt internal analytics dashboard with React + D3.js,
+           reducing report generation time from 12s to 1.4s"
 
-Before: "Worked on backend APIs"
-After:  "Engineered 12 REST API endpoints using Node.js and Express,
-         reducing average response time by 40%"
+BEFORE → "Helped with deployment"
+AFTER  → "Automated deployment pipeline using GitHub Actions and Docker,
+           cutting release cycle from 3 days to 4 hours"
 
-SKILLS TO ADD: TypeScript, Docker, Jest, Agile methodologies
+KEYWORDS TO ADD
+───────────────
+TypeScript · Docker · Jest · Redis · Agile · CI/CD
 ```
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Python 3.11 | Core processing engine |
+| Google Gemini API | AI analysis and generation |
+| GitHub Actions | Full pipeline automation |
+| LaTeX | Resume template support |
+| Plain text I/O | Simple, portable file handling |
 
 ---
 
 ## Roadmap
 
 - [x] Gemini-powered recruiter analysis
-- [x] ATS score calculation
+- [x] ATS match scoring
 - [x] Keyword gap detection
-- [x] LaTeX marker-based patching
-- [x] GitHub Actions automation
+- [x] AI-driven bullet point rewrites
+- [x] LaTeX marker-based safe patching
+- [x] GitHub Actions full automation
 - [ ] PDF auto-generation from patched LaTeX
-- [ ] React web dashboard with drag-and-drop input
+- [ ] React web dashboard — drag, drop, done
 - [ ] Multi-job comparison and ranking
-- [ ] Support for multiple LaTeX templates
-- [ ] SaaS deployment with user accounts
+- [ ] Chrome extension for one-click job description import
+- [ ] SaaS launch with per-application pricing
 
 ---
 
-## Why This Exists
+## Why This Is Different
 
-University students and professionals who use standardized or institution-mandated LaTeX templates face a specific constraint: AI tools that rewrite resumes either produce plain text or break LaTeX formatting entirely.
+Every AI resume tool on the market does one of two things:
 
-This project solves that constraint with a marker-based patching approach — updating only the content sections while leaving document structure, packages, and formatting commands completely untouched. It is the only open-source resume optimizer built specifically for LaTeX template compatibility.
+1. Spits out a new resume in a generic template and calls it "tailored"
+2. Gives you vague feedback like *"add more keywords"* with no specifics
 
----
+AI CV Tailor does neither. It works with your existing resume and your existing template — including strict LaTeX formats that no other tool can touch — and outputs precise, actionable improvements on every single push.
 
-## Author
-
-**Anubhav Jaiswal**
-Final Year B.Tech — Computer Science, Lovely Professional University
-Founder, FounDev Studio | Tech Lead, AWS Cloud Community | 2x Hackathon Winner
-
-[![GitHub](https://img.shields.io/badge/GitHub-anubhavxdev-181717?style=flat-square&logo=github)](https://github.com/anubhavxdev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-anubhavxdev-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/anubhavxdev)
-[![Portfolio](https://img.shields.io/badge/Portfolio-anubhavjaiswal.me-000000?style=flat-square&logo=vercel)](https://anubhavjaiswal.me)
+It's not a product trying to replace your resume. It's infrastructure for people who take job applications seriously.
 
 ---
 
 <div align="center">
 
-If this project helped you land interviews, consider giving it a star.
+## Built by
+
+**Anubhav Jaiswal**
+B.Tech Computer Science · Lovely Professional University
+Founder @ FounDev Studio · Tech Lead @ AWS Cloud Community · 2x Hackathon Winner
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-anubhavxdev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anubhavxdev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-anubhavxdev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anubhavxdev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-anubhavjaiswal.me-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://anubhavjaiswal.me)
+
+<br/>
+
+---
+
+*If this saved you from sending one more generic resume into the void —*
 
 [![Star this repo](https://img.shields.io/github/stars/anubhavxdev/ai-cv-tailor?style=for-the-badge&color=f59e0b&label=Star%20this%20repo)](https://github.com/anubhavxdev/ai-cv-tailor)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 </div>
