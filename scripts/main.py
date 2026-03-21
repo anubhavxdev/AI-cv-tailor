@@ -5,7 +5,7 @@ from prompts import STRICT_PROMPT, IMPROVEMENT_PROMPT, FINAL_PROMPT
 # Configure Gemini API
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Read file helper
 def read_file(path):
