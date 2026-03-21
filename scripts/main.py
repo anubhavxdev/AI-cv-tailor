@@ -19,8 +19,7 @@ def read_file(path):
 def ask(prompt):
     try:
         response = model.generate_content(prompt)
-        print("✅ API Response received")
-        return response.text if response.text else "No response"
+        return response.text
     except Exception as e:
         print("❌ ERROR:", e)
         return "Error generating response"
