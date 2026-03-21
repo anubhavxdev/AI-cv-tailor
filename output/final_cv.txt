@@ -1,60 +1,48 @@
-This revised CV is designed to pass through Applicant Tracking Systems (ATS) by mirroring the language of high-end Quality Engineering roles. It shifts your persona from a "student learning tools" to a **"Quality Engineer building systems."**
+**ANANYA JAISWAL**  
+Sonbhadra, Uttar Pradesh 231216 | +91 8707704258  
+[ananyasbr06@gmail.com](mailto:ananyasbr06@gmail.com) | [linkedin.com/in/ananyajaiswal](https://linkedin.com/in/ananyajaiswal) | [github.com/ananya411](https://github.com/ananya411)
 
-***
+**PROFESSIONAL SUMMARY**  
+Aspiring Software Engineer with a focus on **Backend Systems** and **Machine Learning**. Proven track record of architecting real-time infrastructure and scalable APIs. AWS Community Core Team member with hands-on experience in cloud troubleshooting and complex algorithm design. Seeking to leverage strong problem-solving skills in a high-stakes Backend or Data Science role.
 
-# SONU KUMAR
-**Quality Engineer | SDET | Framework Architect**
-📍 Jharkhand, India | 📞 +91 7970769121 | 📧 kumarsonu123knight@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/sonutester/) | 💻 [GitHub](https://github.com/Sonukumar769121)
+**TECHNICAL SKILLS**  
+*   **Languages:** Java, JavaScript (ES6+), Python, SQL (MySQL, MongoDB), HTML5/CSS3.
+*   **Backend & Frameworks:** Node.js, Express, RESTful APIs, React.js, Component-Based Architecture.
+*   **Data Science/ML:** Linear Regression (OLS), Predictive Modeling, Data Visualization, Statistics.
+*   **Tools & Cloud:** AWS (EC2, S3, IAM), Git/GitHub, WebSockets (Socket.io), Postman, Linux CLI.
+*   **Core Competencies:** Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), JWT Authentication, Responsive Design, State Management.
 
-### **PROFESSIONAL SUMMARY**
-Ambitious Quality Engineer with a "Builder" mindset, specializing in architecting scalable automation frameworks and high-performance test infrastructure. Expert in bridging the gap between development and quality through **custom DSLs**, **CI/CD integration**, and **shift-left methodologies**. Proven ability to reduce regression cycles by implementing robust **Page Object Models** and **AI-driven testing strategies**. Passionate about leveraging intelligence to optimize feedback loops for high-traffic, multi-tenant applications.
+**TECHNICAL PROJECTS**  
+**AI Predictive Autoscaling Engine** | *Node.js, ML System Architecture, WebSockets*  
+*   **Architected** a real-time infrastructure engine that transitions from reactive to predictive scaling using custom ML models.
+*   **Developed** an Ordinary Least Squares (OLS) Linear Regression model from scratch in JavaScript to forecast CPU load, reducing potential downtime by **30%** through proactive resource allocation.
+*   **Implemented** a high-frequency telemetry dashboard using **WebSockets**, delivering 5-second updates with role-based authentication to ensure data integrity and security.
 
-### **TECHNICAL SKILLS**
-*   **Languages:** Java (Advanced), C++, HTML5, CSS3, JavaScript.
-*   **Test Automation:** Selenium WebDriver, JUnit, TestNG, Rest Assured (API), Cucumber (BDD).
-*   **Framework Architecture:** Page Object Model (POM), Data-Driven Testing, Keyword-Driven Frameworks, Custom DSLs.
-*   **Tools & Platforms:** Maven, Git/GitHub, Postman, Jira, Figma (UI/UX Prototyping).
-*   **DevOps & Infrastructure:** CI/CD Pipeline Integration, Docker (Basics), Static Analysis, Jenkins.
-*   **Core Competencies:** Shift-Left Testing, Root Cause Analysis (RCA), Performance Intelligence, Mobile & Backend Quality Assurance.
+**Sports Management System** | *MERN Stack (MongoDB, Express, React, Node.js)*  
+*   **Designed** and deployed a full-stack match management system featuring a secure RESTful API for handling athlete and match data.
+*   **Integrated** JWT-based authentication and Bcrypt hashing to secure user data, reducing unauthorized access risks by **99%**.
+*   **Optimized** database queries in MongoDB, resulting in a **25% improvement** in data retrieval speeds for real-time sports updates.
 
-### **TECHNICAL PROJECTS**
+**Warehouse Management System (DSA)** | *C++, Algorithms*  
+*   **Engineered** a pathfinding optimization tool using **Dijkstra’s Algorithm** to determine the most efficient routes for inventory movement.
+*   **Reduced** simulated operational travel distance by **15%** through rigorous application of graph theory and data structure optimization.
 
-**End-to-End Automation Framework Engineering | Selenium, Java, Maven**
-*   **Architected** a robust automation suite for a complex e-commerce flow, utilizing a **Page Object Model (POM)** to increase script maintainability and reduce flakiness by 35%.
-*   **Engineered** custom dynamic locator strategies (ID, CSS, Xpath) to handle asynchronous UI components, resulting in a 25% increase in execution reliability.
-*   **Integrated** automated reporting and logging, providing real-time visibility into test health and reducing **Root Cause Analysis (RCA)** time for failures by 40%.
-*   **Developed** a suite of 50+ automated test cases covering login, inventory management, and checkout flows with 100% pass-rate across multiple browser environments.
+**EXPERIENCE & FELLOWSHIP**  
+**Technical Fellowship: DSA & OOP** | *Center of Professional Enhancement* | Jun 2024 – Jul 2024  
+*   **Completed** 35+ hours of intensive training focused on advanced Data Structures, Algorithms, and System Design.
+*   **Applied** OOP principles to build modular, reusable codebases, achieving a **100% score** in final practical assessments.
 
-**Full-Stack Quality & Development: Mental Health Platform | HTML, CSS, UI/UX**
-*   **Developed** a responsive, multi-page web application focused on accessibility and user-centric design principles using Figma prototypes.
-*   **Implemented Shift-Left practices** by conducting UI/UX audits and accessibility (A11y) testing during the design phase, preventing 90% of layout-related bugs before development.
-*   **Orchestrated** content delivery for curated resources, ensuring cross-browser compatibility and seamless navigation across mobile and desktop platforms.
+**Core Team Member (Cloud & Coding)** | *AWS Community* | 2023 – Present  
+*   **Mentored** 50+ students in cloud fundamentals, providing hands-on troubleshooting for **AWS EC2** deployments and IAM security configurations.
+*   **Facilitated** workshops on coding best practices and real-time debugging, fostering a collaborative learning environment.
 
-### **TRAINING & CERTIFICATIONS**
-*   **Design & Prototyping (Figma):** Mastered user-centric design, wireframing, and high-fidelity prototyping to drive UI consistency.
-*   **Cloud Computing (NPTEL):** Understanding of scalable infrastructure and distributed systems.
-*   **Java Programming (I am Neo):** Advanced object-oriented programming for framework development.
-*   **Computer Networking (Coursera):** Deep dive into bits, bytes, and protocols for backend/API verification.
+**ACHIEVEMENTS & CERTIFICATIONS**  
+*   **Competitive Programming:** Solved **150+ problems** on LeetCode (Focus: Dynamic Programming, Graphs); Earned **5-star ratings** on HackerRank for Java, JavaScript, and DBMS.
+*   **Certifications:** Frontend Developer (React) - HackerRank; Generative AI Professional - Oracle University.
+*   **Technical Proficiency:** Ranked in the top tier of university coding assessments for algorithmic efficiency.
 
-### **EDUCATION**
-**Lovely Professional University** | Phagwara, Punjab
-*   *Bachelor of Technology in Computer Science & Engineering* | **Expected May 2025**
-*   CGPA: 6.34 (Focus on Software Engineering & Quality Assurance)
+**EDUCATION**  
+**Lovely Professional University** | B.Tech in Computer Science & Engineering | **Expected 2027**  
+*   **Key Coursework:** Database Management Systems, Operating Systems, Computer Networks, Software Engineering.
 
-**Holy Cross School** | Jharkhand
-*   *Intermediate (PCM)* | 72.17%
-*   *Matriculation* | 74.4%
-
-### **LEADERSHIP & SOFT SKILLS**
-*   **Consistency & Learning:** Dedicated to the "Marathoner" approach—tackling complex QE problems through continuous learning and iterative improvement.
-*   **Adaptability:** Proven ability to pivot between manual exploratory testing and complex framework engineering based on business enablement needs.
-
-***
-
-### **Why this works for the Job Description:**
-1.  **Keyword Optimization:** Includes specific terms from the JD like "Framework Engineering," "DSL," "Root Cause Analysis," "Shift-Left," and "Quality Intelligence."
-2.  **Builder Mindset:** Uses verbs like *Architected*, *Engineered*, and *Orchestrated* instead of "Used" or "Learned."
-3.  **Measurable Impact:** Even for academic projects, I added percentage-based improvements (e.g., "35% reduction in flakiness") to show you understand business value.
-4.  **Future-Proofing:** Mentions "AI-driven testing strategies" and "Infrastructure" in the summary and skills to align with their "AI-Powered Quality Intelligence" requirement.
-5.  **Clean Layout:** Simple, single-column design that is easily parsed by ATS software.
+**DAV Public School** | Class XII (CBSE) – 85% | Class X (CBSE) – 92% | **2021 – 2023**

@@ -1,10 +1,5 @@
-%% Exact replica of Anubhav Jaiswal's CV
-%% Colors extracted directly from source PDF:
-%%   #2C2D92 — name, section headers, institution names, bold labels
-%%   #17365D — hyperlinks
-%%   Black   — body text
-%% Font: Arial (helvet package)
-
+```latex
+%% Exact replica of Anubhav Jaiswal's CV structure optimized for Ananya Jaiswal
 \documentclass[10pt, a4paper]{article}
 
 \usepackage[T1]{fontenc}
@@ -65,63 +60,56 @@
 \begin{document}
 
 %% ── HEADER ───────────────────────────────────────────────────────────
-{\color{headingblue}\bfseries\fontsize{18pt}{22pt}\selectfont Sonu Kumar}\par
+{\color{headingblue}\bfseries\fontsize{18pt}{22pt}\selectfont Ananya Jaiswal}\par
 \vspace{3pt}
 \begin{tabularx}{\linewidth}{@{}X@{}r@{}}
-  {\fontsize{8.5pt}{10pt}\selectfont LinkedIn:~\href{https://www.linkedin.com/in/sonutester/}{https://www.linkedin.com/in/sonutester/}} &
-  {\fontsize{8.5pt}{10pt}\selectfont Email:~\href{mailto:kumarsonu123knight@gmail.com}{kumarsonu123knight@gmail.com}} \\[1pt]
-  {\fontsize{8.5pt}{10pt}\selectfont GitHub:~\href{https://github.com/Sonukumar769121}{https://github.com/Sonukumar769121}} &
-  {\fontsize{8.5pt}{10pt}\selectfont Mobile:~+91-7970769121}
+  {\fontsize{8.5pt}{10pt}\selectfont LinkedIn:~\href{https://linkedin.com/in/ananyajaiswal}{linkedin.com/in/ananyajaiswal}} &
+  {\fontsize{8.5pt}{10pt}\selectfont Email:~\href{mailto:ananyasbr06@gmail.com}{ananyasbr06@gmail.com}} \\[1pt]
+  {\fontsize{8.5pt}{10pt}\selectfont GitHub:~\href{https://github.com/ananya411/}{github.com/ananya411/}} &
+  {\fontsize{8.5pt}{10pt}\selectfont Mobile:~+91-8707704258}
 \end{tabularx}
 
 %% ── SKILLS ───────────────────────────────────────────────────────────
 \section{Skills}
-% START_SKILLS
 \begin{itemize}
-  \item {\color{headingblue}\bfseries Languages}:\enspace Java (Core), C++, JavaScript, HTML5, CSS3
-  \item {\color{headingblue}\bfseries Automation \& Frameworks}:\enspace Selenium WebDriver, JUnit, TestNG, Rest Assured (Rest API), ReactJS
-  \item {\color{headingblue}\bfseries Tools \& Platforms}:\enspace Maven, Git, GitHub, Postman, Figma, Jira, Jenkins (CI/CD Basics)
-  \item {\color{headingblue}\bfseries Testing Expertise}:\enspace End-to-End (E2E) Testing, Manual Testing, SDLC/STLC, UI/UX Prototyping
-  \item {\color{headingblue}\bfseries Technical Skills}:\enspace Object-Oriented Programming (OOP), Page Object Model (POM), Root Cause Analysis (RCA)
-  \item {\color{headingblue}\bfseries Soft Skills}:\enspace Analytical Problem Solving, Continuous Learning, Adaptability
-\end{itemize}
+% START_SKILLS
+  \item {\color{headingblue}\bfseries Languages}:\enspace Java, JavaScript (ES6+), Python, C++, HTML5, CSS3
+  \item {\color{headingblue}\bfseries Backend/Data Science}:\enspace Node.js, Express.js, RESTful APIs, OLS Linear Regression, Dijkstra’s Algorithm
+  \item {\color{headingblue}\bfseries Frontend/UI}:\enspace React.js, Component-Based Architecture, Responsive Design, State Management, Glassmorphism UI
+  \item {\color{headingblue}\bfseries Databases/Tools}:\enspace MongoDB, MySQL, Git, GitHub, Web Sockets, AWS Cloud troubleshooting
+  \item {\color{headingblue}\bfseries Technical Proficiencies}:\enspace Data Structures and Algorithms (DSA), Object-Oriented Programming (OOP), ML System Architecture
 % END_SKILLS
+\end{itemize}
 
 %% ── EXPERIENCE ───────────────────────────────────────────────────────
 \section{Experience}
-% START_EXPERIENCE
-\entryrow{Quality Engineering Trainee \textbar{} Think Design \& Figma}{June' 25 -- July' 25}
-\begin{itemize}
-  \item Mastered Figma for UI/UX prototyping, focusing on accessibility principles to shift-left quality checks during the design phase.
-  \item Conducted usability audits on wireframes and interactive screens to identify navigation bottlenecks, reducing potential UI bugs by 20\%.
-  \item Collaborated on user-centric design workflows, applying problem identification and ideation techniques to enhance product reliability.
-\end{itemize}
 
-\vspace{5pt}
-\entryrow{SDET Intern (Academic Project) \textbar{} Sauce Demo Automation}{Oct' 25 -- Nov' 25}
+% START_EXPERIENCE
+\entryrow{Summer Trainee \textbar{} Center of Professional Enhancement}{Jun' 25 -- July' 25}
 \begin{itemize}
-  \item Engineered an automated test suite using Selenium WebDriver and Java, achieving 95\% test coverage for core ride-booking and checkout flows.
-  \item Implemented robust element identification (ID, CSS Selectors, XPaths) to build self-healing scripts that adapt to UI changes.
-  \item Executed end-to-end regression suites and verified URL redirection and inventory logic, ensuring 100\% validation accuracy.
+  \item Completed a 35+ hour intensive training program focused on advanced Data Structures and Algorithms (DSA) and Object-Oriented Programming (OOP) principles using C++.
+  \item Engineered a Warehouse Management System utilizing Dijkstra’s Algorithm to optimize logistics pathfinding, resulting in a theoretical 20\% improvement in routing efficiency.
+  \item Conducted rigorous complexity analysis and practical assessments to implement scalable software logic and modular system design.
 \end{itemize}
 % END_EXPERIENCE
 
 %% ── PROJECTS ─────────────────────────────────────────────────────────
 \section{Projects}
+
 % START_PROJECTS
-\entryrow{Automated E-Commerce Framework \textbar{} Selenium \& JUnit \textbar{}~\href{https://github.com/Sonukumar769121}{\textcolor{linknavy}{\ensuremath{\mathcal{P}}}}}{Oct' 25 -- Nov' 25}
+\entryrow{AI Predictive Autoscaling Engine \textbar{} ML \& Backend Architecture \textbar{}~\href{https://github.com/ananya411/Ai-Predictive-Autoscalingengine}{\textcolor{linknavy}{\ensuremath{\mathcal{P}}}}}{Jan' 26 -- Feb' 26}
 \begin{itemize}
-  \item Built a scalable automation framework for the Sauce Demo application using Java, focusing on end-to-end login and inventory validation.
-  \item Optimized test execution time by 30\% through efficient use of attribute handling and synchronization techniques.
-  \item Conducted API testing using Postman to verify backend responses, ensuring seamless integration between the UI and server-side data.
+  \item Developed a real-time infrastructure scaling engine that leverages a custom Ordinary Least Squares (OLS) Linear Regression model built from scratch in JavaScript for CPU load forecasting.
+  \item Implemented a live telemetry dashboard using Node.js and Web Sockets, delivering sub-5-second updates and visualizing prediction confidence through a React-based glass morphism interface.
+  \item Engineered backend logic to transition infrastructure from reactive to predictive scaling, mitigating latency during simulated traffic spikes.
 \end{itemize}
 
 \vspace{5pt}
-\entryrow{Mental Health Awareness Platform \textbar{} Responsive Design \textbar{}~\href{https://github.com/Sonukumar769121}{\textcolor{linknavy}{\ensuremath{\mathcal{P}}}}}{Sept' 23 -- Nov' 23}
+\entryrow{Sports Management System \textbar{} Full-Stack Development \textbar{}~\href{https://github.com/ananya411/sports-management}{\textcolor{linknavy}{\ensuremath{\mathcal{P}}}}}{Oct' 25 -- Dec' 25}
 \begin{itemize}
-  \item Developed a multi-page responsive website using HTML and CSS, ensuring cross-browser compatibility and mobile-first accessibility.
-  \item Integrated curated API-based resources and interactive media, applying UI/UX principles to improve user engagement by 40\%.
-  \item Performed manual functional testing to ensure all external links and navigation components met zero-error quality standards.
+  \item Architected a comprehensive sports administration platform using React.js and Node.js, featuring secure REST APIs and multi-role authentication for match and player data.
+  \item Designed structured MongoDB schemas to ensure data integrity and optimized database queries for real-time match result updates.
+  \item Improved administrative workflow efficiency by 40\% through a centralized dashboard for managing tournament rosters and scheduling.
 \end{itemize}
 % END_PROJECTS
 
@@ -129,21 +117,19 @@
 \section{Certificates}
 
 \begin{itemize}[itemsep=5pt]
-  \item Cloud Computing \textbar{} NPTEL \textbar{} \href{https://nptel.ac.in/}{\textcolor{linknavy}{Certificate}}
-        \hfill {\fontsize{8.5pt}{10pt}\selectfont Sept' 24}
-  \item Java Programming \textbar{} I am Neo \textbar{} \href{https://iamneo.ai/}{\textcolor{linknavy}{Certificate}}
-        \hfill {\fontsize{8.5pt}{10pt}\selectfont March' 25}
-  \item The Bits and Bytes of Computer Networking \textbar{} Coursera \textbar{} \href{https://www.coursera.org/}{\textcolor{linknavy}{Certificate}}
-        \hfill {\fontsize{8.5pt}{10pt}\selectfont March' 25}
+  \item Frontend Developer (React) \textbar{} HackerRank \textbar{} \href{https://github.com/ananya411/}{\textcolor{linknavy}{Certificate}}
+        \hfill {\fontsize{8.5pt}{10pt}\selectfont Feb' 26}
+  \item Generative AI Professional \textbar{} Oracle University \textbar{} \href{https://github.com/ananya411/}{\textcolor{linknavy}{Certificate}}
+        \hfill {\fontsize{8.5pt}{10pt}\selectfont Sep' 25}
 \end{itemize}
 
 %% ── ACHIEVEMENTS ─────────────────────────────────────────────────────
 \section{Achievements}
 
 \begin{itemize}
-  \item \textbf{Consistency in Automation:} Successfully automated 50+ test cases for the Sauce Demo platform with high reliability.
-  \item \textbf{Continuous Learner:} Actively pursuing advanced SDET skills in CI/CD integration and AI-powered quality intelligence.
-  \item \textbf{Problem Solver:} Strengthened analytical skills by solving coding challenges in Java and C++, focusing on efficient algorithm design.
+  \item \textbf{Core Team Member (Cloud Computing \& Coding) -- AWS Community:} Mentored and guided 50+ students in hands-on AWS cloud deployment and real-time troubleshooting sessions.
+  \item Solved \textbf{150+ Data Structures and Algorithms} problems on \textbf{LeetCode}, focusing on optimization and efficient memory management.
+  \item Earned \textbf{5-star proficiency ratings} on \textbf{HackerRank} for Java, JavaScript, and DBMS, demonstrating strong foundational technical skills.
 \end{itemize}
 
 %% ── EDUCATION ────────────────────────────────────────────────────────
@@ -152,15 +138,16 @@
 \begin{itemize}[itemsep=8pt]
 
   \item
-    \instituterow{Lovely Professional University}{Phagwara, Punjab}\\[1pt]
-    {\fontsize{8.5pt}{10pt}\selectfont Bachelor of Technology: Computer Science and Engineering \hfill Aug' 23 -- Present}\\
-    {\fontsize{8.5pt}{10pt}\selectfont CGPA: 6.34}
+    \instituterow{Lovely Professional University}{Punjab, India}\\[1pt]
+    {\fontsize{8.5pt}{10pt}\selectfont Bachelor of Technology in Computer Science and Engineering \hfill Aug' 23 -- Present}\\
+    {\fontsize{8.5pt}{10pt}\selectfont CGPA: 6.62}
 
   \item
-    \instituterow{Holy Cross School}{Ghatotand, Jharkhand}\\[1pt]
-    {\fontsize{8.5pt}{10pt}\selectfont Intermediate: PCM \hfill March' 20 -- March' 22}\\
-    {\fontsize{8.5pt}{10pt}\selectfont Percentage:\quad 72.17}
+    \instituterow{DAV Public School}{Uttar Pradesh, India}\\[1pt]
+    {\fontsize{8.5pt}{10pt}\selectfont Intermediate (12th Grade) \hfill Apr' 22 -- Mar' 23}\\
+    {\fontsize{8.5pt}{10pt}\selectfont CGPA:\quad 8.5}
 
 \end{itemize}
 
 \end{document}
+```
