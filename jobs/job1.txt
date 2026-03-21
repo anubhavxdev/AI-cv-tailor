@@ -1,20 +1,34 @@
-Software Development Engineer (SDE)
+What you’ll be doing?
+You’ll be working on core quality engineering problems across our Centres of Excellence. Each Centre balances the dual of Framework Development (The Ideal) and Business Enablement (The Practical).
 
-Requirements:
-- Strong proficiency in JavaScript and modern frameworks (React.js, Node.js)
-- Experience with REST APIs and backend development
-- Knowledge of databases like MongoDB or MySQL
-- Understanding of data structures and algorithms
-- Experience with Git and version control
-- Familiarity with cloud platforms (AWS preferred)
+1) Test Automation & Framework Engineering:
+** Designing and building end-to-end automation frameworks that test ride booking flows, driver allocation, payments, and multi-modal transit across cities.
+** Writing custom linters, static analysis rules, and compiler flags that catch bugs at the source—before code even reaches a test environment.
+** Building automation scripts that integrate seamlessly into CI/CD pipelines, enabling continuous verification of every commit.
+** Creating reusable test libraries and DSLs that empower other engineers to write tests effortlessly.
 
-Responsibilities:
-- Develop scalable web applications
-- Write clean, maintainable, and efficient code
-- Collaborate with cross-functional teams
-- Optimize application performance
-- Debug and troubleshoot issues
+2) AI-Powered Quality Intelligence:
+** Leveraging AI to generate test cases, identify regression hotspots, and predict failure-prone areas of the codebase.
+** Building intelligent test selection systems that run the right tests at the right time, dramatically reducing feedback loops.
+** Developing self-healing test infrastructure that adapts to UI and API changes without manual intervention.
+** Exploring code-aware verification—understanding business logic deeply enough to write tests that go beyond surface-level validation.
 
-Preferred:
-- Internship or project experience in full stack development
-- Knowledge of Docker and CI/CD pipelines
+3) Platform & Release Quality:
+** Owning quality across mobile (Android & iOS) and backend platforms for a multi-tenant, multi-city application serving lakhs of rides daily.
+** Ensuring reliability across diverse transit modes—auto-rickshaws, cabs, rentals, intercity (Bharat Taxi), and public transport (Chennai One).
+** Driving shift-left testing practices—embedding quality gates early in the development lifecycle.
+** Conducting root cause analysis on production incidents and building automated regression suites that prevent recurrence.
+
+4) Infrastructure & Observability:
+** Building test infrastructure that scales—parallel execution, device farms, and environment orchestration.
+** Developing quality dashboards and observability tooling that give real-time insight into system health.
+** Contributing to infrastructure-as-code practices for reproducible test environments.
+
+Apply if you are:
+** Passionate about quality engineering and see it as a craft—not just a checkbox
+** Someone who reads code for breakfast. You understand systems deeply and can reason about where they’ll break.
+** Excited by the intersection of AI and testing—you want to build the future of software verification
+** A builder at heart—you’d rather create a framework than run the same manual test twice
+** Curious about functional programming, DSLs, and compiler-level quality checks
+** Someone who can stick to a project for long stretches of time either to solve a hard problem or to achieve a high bar of perfection (marathoner)
+** An ambitious and constant learner who takes on hard challenges

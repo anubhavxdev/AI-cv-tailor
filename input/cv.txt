@@ -1,35 +1,62 @@
-Anubhav Jaiswal
-
-Email: anubhavjaiswal1803@gmail.com
-Phone: +91-7980921124
-LinkedIn: https://linkedin.com/in/anubhavxdev
-GitHub: https://github.com/anubhavxdev
-
-EDUCATION
-Bachelor of Technology in Computer Science
-
-SKILLS
-Languages: JavaScript, Python, Java
-Frameworks: React.js, Node.js, Express.js
-Databases: MongoDB, MySQL
-Tools: Git, Docker (basic), AWS (basic)
-
-PROJECTS
-
-EventManager – Full Stack Event Management System
-- Built a platform for users to register for events and download QR-based tickets
-- Implemented backend using Node.js and Express
-- Used MongoDB for storing user and event data
-
-TravelEase – Travel Planning Website
-- Developed frontend using HTML, CSS, JavaScript
-- Designed responsive UI for travel booking experience
-
-EXPERIENCE
-Technical Lead – AWS Cloud Community
-- Conducted workshops on cloud computing and system design
-- Guided students on AWS services and deployment
-
-ACHIEVEMENTS
-- Solved 200+ DSA problems on LeetCode
-- Participated in hackathons and coding contests
+Sonu Kumar 
+LinkedIn: www.linkedin.com/in/sonutester/                                                    
+GitHub:   github.com/Sonukumar769121                                
+SKILLS 
+Languages:        
+Email: kumarsonu123knight@gmail.com 
+Mobile: +91 7970769121 
+Java, C++, HTML and CSS  
+Frameworks:                   
+Tools/Platforms:         
+Testing Expertise:         
+Soft Skills:                        
+PROJECTS 
+Selenium WebDriver, Junit, TestNG, Rest API, ReactJS 
+Maven, GitHub, Postman, Figma, Jira  
+Manual Testing, SDLC, UI/UX Prototyping 
+Adaptability, Continuous Learning, Consistency  
+Automate Demo Website | Selenium, JUnit|                                                                                 
+Oct’ 25 - Nov’ 25 
+ Built automated test scripts using Selenium WebDriver with Java to validate key UI components of the 
+Sauce Demo application. 
+ Utilized element identification techniques such as ID, Class Name, and attribute handling to perform 
+reliable interactions and validations. 
+ Executed end-to-end login automation and verified page title, URL redirection, and successful navigation to 
+the inventory page. 
+Mental Health Counselling | Live | GitHub                                                                             
+Sept’ 23 - Nov’ 23 
+ Developed a responsive multi-page mental health counselling website using HTML and CSS, focusing on 
+clean design and easy navigation. 
+ Integrated curated resources including YouTube videos, Wikipedia articles, and links to trusted mental 
+health platforms to provide useful and accessible information. 
+ Applied basic UI/UX principles to organize content effectively and improve user experience for awareness 
+and self-help support. 
+TRAINING 
+Think Design And Figma | Link                                                                                                             
+June’ 25 – July’ 25 
+ Learned core principles of Figma including problem identification, ideation, and user-centric design. 
+ Gained hands-on experience like wireframing, prototyping and UI design using Figma. 
+ Designed interactive screens by applying UX practices, accessibility principles and visual consistency. 
+CERTIFICATES 
+• Cloud Computing - NPTEL | Link                                                                                                                                      
+• Java – I am Neo  | Link                                                                                                                                     
+• The Bits and Bytes of Computer Networking – CourseEra | Link                                                                    
+EDUCATION 
+Lovely Professional University                                                                                                     
+Bachelor of Technology                                                                                                                                   
+Computer Science and Engineering; CGPA: 6.34 
+Holy Cross School                                                                                                                                
+Intermediate                                                                                                                                                
+PCM; Percentage: 72.17 
+Holy Cross School                                                                                                                                                   
+Matriculation                                                                                                                                              
+June 2025  
+March 2025 
+Sept 2024 
+Phagwara, Punjab 
+Aug’ 23 – Present 
+Ghatotand, Jharkhand 
+March’ 20 -March’ 22 
+Ghatotand, Jharkhand 
+March’ 09 -March’ 20 
+Percentage: 74.4
