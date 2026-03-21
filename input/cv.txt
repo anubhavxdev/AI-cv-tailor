@@ -1,62 +1,43 @@
-Sonu Kumar 
-LinkedIn: www.linkedin.com/in/sonutester/                                                    
-GitHub:   github.com/Sonukumar769121                                
-SKILLS 
-Languages:        
-Email: kumarsonu123knight@gmail.com 
-Mobile: +91 7970769121 
-Java, C++, HTML and CSS  
-Frameworks:                   
-Tools/Platforms:         
-Testing Expertise:         
-Soft Skills:                        
-PROJECTS 
-Selenium WebDriver, Junit, TestNG, Rest API, ReactJS 
-Maven, GitHub, Postman, Figma, Jira  
-Manual Testing, SDLC, UI/UX Prototyping 
-Adaptability, Continuous Learning, Consistency  
-Automate Demo Website | Selenium, JUnit|                                                                                 
-Oct’ 25 - Nov’ 25 
- Built automated test scripts using Selenium WebDriver with Java to validate key UI components of the 
-Sauce Demo application. 
- Utilized element identification techniques such as ID, Class Name, and attribute handling to perform 
-reliable interactions and validations. 
- Executed end-to-end login automation and verified page title, URL redirection, and successful navigation to 
-the inventory page. 
-Mental Health Counselling | Live | GitHub                                                                             
-Sept’ 23 - Nov’ 23 
- Developed a responsive multi-page mental health counselling website using HTML and CSS, focusing on 
-clean design and easy navigation. 
- Integrated curated resources including YouTube videos, Wikipedia articles, and links to trusted mental 
-health platforms to provide useful and accessible information. 
- Applied basic UI/UX principles to organize content effectively and improve user experience for awareness 
-and self-help support. 
-TRAINING 
-Think Design And Figma | Link                                                                                                             
-June’ 25 – July’ 25 
- Learned core principles of Figma including problem identification, ideation, and user-centric design. 
- Gained hands-on experience like wireframing, prototyping and UI design using Figma. 
- Designed interactive screens by applying UX practices, accessibility principles and visual consistency. 
-CERTIFICATES 
-• Cloud Computing - NPTEL | Link                                                                                                                                      
-• Java – I am Neo  | Link                                                                                                                                     
-• The Bits and Bytes of Computer Networking – CourseEra | Link                                                                    
-EDUCATION 
-Lovely Professional University                                                                                                     
-Bachelor of Technology                                                                                                                                   
-Computer Science and Engineering; CGPA: 6.34 
-Holy Cross School                                                                                                                                
-Intermediate                                                                                                                                                
-PCM; Percentage: 72.17 
-Holy Cross School                                                                                                                                                   
-Matriculation                                                                                                                                              
-June 2025  
-March 2025 
-Sept 2024 
-Phagwara, Punjab 
-Aug’ 23 – Present 
-Ghatotand, Jharkhand 
-March’ 20 -March’ 22 
-Ghatotand, Jharkhand 
-March’ 09 -March’ 20 
-Percentage: 74.4
+Ananya Jaiswal
+Sonbhadra, Uttar Pradesh 231216
+  +91 8707704258   ananyasbr06@gmail.com   linkedin.com/in/ananyajaiswal   github.com/ananya411/
+Summer Training 
+ Data Structure and Algorithm with CPP                                                                                                        Jun 2025 - Jul 2025
+Center of Professional Enhancement
+•	Completed a 35+ hour live summer training focused on Programming, OOP concepts, and Data Structures & Algorithms.
+•	Built a Warehouse Management System project using Dijkstra’s Algorithm to optimize pathfinding and improve efficiency.
+•	Gained hands-on experience in object-oriented design, problem-solving, and implementing core data structures through assessments and practical assignments.
+
+
+Projects
+AI Predictive Autoscaling Engine | ML System Architecture, React, Node.js, Web Sockets	   Jan 2026 - Feb 2026
+•	Engineered a real-time infrastructure autoscaling engine that transitions from reactive to predictive scaling using custom Machine Learning.
+•	Implemented an Ordinary Least Squares (OLS) Linear Regression model from scratch in JavaScript to forecast CPU load and evaluate prediction confidence.
+•	Developed a full-stack real-time dashboard utilizing Web Sockets for 5-second telemetry updates, featuring glass morphism UI and role-based authentication.
+•	Repository Link: https://github.com/ananya411/Ai-Predictive-Autoscalingengine
+Sports Management System | React.js, Node.js, MongoDB	      Oct 2025 - Dec 2025
+•		Designed and developed a Sports Management System using React.js and Node.js for efficient management of teams and matches.
+•	Implemented REST APIs, authentication and database integration to handle players and match data securely.
+•	Improved usability by providing real-time updates and structured data management for sports administrators.
+•	Repository Link: https://github.com/ananya411/sports-management
+Certificates 
+Frontend Developer (React) 	       Feb 2026
+Hacker Rank  — CertiFIcate Link
+Generative AI Professional 	     Sept 2025
+Oracle University — CertiFIcate Link
+Achievements
+ Core Team Member (Cloud Computing & Coding) AWS Community , Guided 50+ students during hands-on AWS cloud and           coding, assisting with concepts and real-time troubleshooting.
+ Solved 150+ algorithmic problems on Leet Code, demonstrating strong problem-solving skills and algorithmic thinking.
+ Earned 5-star ratings on Hacker Rank in Java, JavaScript and DBMS, highlighting technical proficiency.
+Skills
+ Languages:  Java, JavaScript, Python, HTML 
+ Technologies/Frameworks: CSS,  React.js, Rest APIs, Node.js,  Git, GitHub
+ Core Concepts: Responsive Design, Component-Based Architecture, State Management, UI/UX
+Education
+Lovely Professional University 	2023 – 2027
+Bachelor of Technology - Computer Science and Engineering — CGPA: 6.62	Phagwara, Punjab
+DAV Public School	2022 – 2023
+12th  — CGPA: 8.5	Sonbhadra, Uttar Pradesh
+DAV Public School 	2020 – 2021
+10th — CGPA: 9.2	         Sonbhadra, Uttar Pradesh
+
