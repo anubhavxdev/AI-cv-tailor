@@ -1,43 +1,68 @@
-Ananya Jaiswal
-Sonbhadra, Uttar Pradesh 231216
-  +91 8707704258   ananyasbr06@gmail.com   linkedin.com/in/ananyajaiswal   github.com/ananya411/
-Summer Training 
- Data Structure and Algorithm with CPP                                                                                                        Jun 2025 - Jul 2025
-Center of Professional Enhancement
-•	Completed a 35+ hour live summer training focused on Programming, OOP concepts, and Data Structures & Algorithms.
-•	Built a Warehouse Management System project using Dijkstra’s Algorithm to optimize pathfinding and improve efficiency.
-•	Gained hands-on experience in object-oriented design, problem-solving, and implementing core data structures through assessments and practical assignments.
-
-
-Projects
-AI Predictive Autoscaling Engine | ML System Architecture, React, Node.js, Web Sockets	   Jan 2026 - Feb 2026
-•	Engineered a real-time infrastructure autoscaling engine that transitions from reactive to predictive scaling using custom Machine Learning.
-•	Implemented an Ordinary Least Squares (OLS) Linear Regression model from scratch in JavaScript to forecast CPU load and evaluate prediction confidence.
-•	Developed a full-stack real-time dashboard utilizing Web Sockets for 5-second telemetry updates, featuring glass morphism UI and role-based authentication.
-•	Repository Link: https://github.com/ananya411/Ai-Predictive-Autoscalingengine
-Sports Management System | React.js, Node.js, MongoDB	      Oct 2025 - Dec 2025
-•		Designed and developed a Sports Management System using React.js and Node.js for efficient management of teams and matches.
-•	Implemented REST APIs, authentication and database integration to handle players and match data securely.
-•	Improved usability by providing real-time updates and structured data management for sports administrators.
-•	Repository Link: https://github.com/ananya411/sports-management
-Certificates 
-Frontend Developer (React) 	       Feb 2026
-Hacker Rank  — CertiFIcate Link
-Generative AI Professional 	     Sept 2025
-Oracle University — CertiFIcate Link
-Achievements
- Core Team Member (Cloud Computing & Coding) AWS Community , Guided 50+ students during hands-on AWS cloud and           coding, assisting with concepts and real-time troubleshooting.
- Solved 150+ algorithmic problems on Leet Code, demonstrating strong problem-solving skills and algorithmic thinking.
- Earned 5-star ratings on Hacker Rank in Java, JavaScript and DBMS, highlighting technical proficiency.
-Skills
- Languages:  Java, JavaScript, Python, HTML 
- Technologies/Frameworks: CSS,  React.js, Rest APIs, Node.js,  Git, GitHub
- Core Concepts: Responsive Design, Component-Based Architecture, State Management, UI/UX
-Education
-Lovely Professional University 	2023 – 2027
-Bachelor of Technology - Computer Science and Engineering — CGPA: 6.62	Phagwara, Punjab
-DAV Public School	2022 – 2023
-12th  — CGPA: 8.5	Sonbhadra, Uttar Pradesh
-DAV Public School 	2020 – 2021
-10th — CGPA: 9.2	         Sonbhadra, Uttar Pradesh
-
+UTKARSH TIWARI 
+LinkedIn: https://linkedin.com/in/utkarsh781 
+GitHub: https://github.com/utkarsh7811 
+SKILLS 
+Email: utkarshtiwari2208@gmail.com 
+Mobile:+91-9771074677 
+• Languages: 
+C++, Java, C, SQL 
+• Cloud & Devops AWS (EC2, S3, RDS, VPC, Lambda), Microsoft Azure, Linux 
+• Tools/Platforms: 
+• Technical Skills: 
+• Soft Skills: 
+TRAINING 
+Git, GitHub, Docker, Vercel, VS Code 
+Data Structures and Algorithms (DSA), Object Oriented Programming (OOP) 
+Continuous Learning, Consistency, Adaptability 
+Design, Thinking & Figma – Summer Training (LPU) 
+Jun’ 25 – Jul’ 25 
+● Applied Design Thinking methodologies to solve user-centric problems, incorporating empathy mapping, ideation, and 
+concept validation. 
+● Created UI/UX prototypes in Figma, including wireframes, user flows, and interactive clickable mockups for 
+application concepts. 
+● Developed prototype solutions for an Emergency Response System and an Online Voting Platform, focusing on 
+usability and intuitive interface design. 
+PROJECTS 
+AWS Sandbox VPC Project | Github 
+Jan’ 26 – Feb’ 26 
+● Built a custom Virtual Private Cloud (VPC) architecture on AWS with public and private subnets across 
+multiple Availability Zones to achieve secure and high-availability infrastructure. 
+● Implemented core networking components such as Internet Gateway, NAT Gateway, Route Tables, and Security Groups 
+to control traffic routing and enforce network security policies. 
+● Provisioned EC2 instances within different subnet layers and configured a Bastion Host to enable secure 
+administrative access via SSH while maintaining private network isolation. 
+● Performed connectivity testing and validation to ensure proper communication between resources inside the cloud 
+environment. 
+Highly Available AWS Infrastructure with Auto Scaling & Monitoring | Github 
+Oct’ 25 – Nov’ 25 
+● Built a highly available cloud architecture across multiple Availability Zones using AWS VPC and Application 
+Load Balancer to ensure reliable traffic distribution and fault tolerance. 
+● Configured Auto Scaling Groups with CPU-based scaling policies to dynamically adjust compute capacity based 
+on workload demand. 
+● Integrated EC2 instances behind the load balancer to maintain service continuity and improve 
+application availability. 
+● Set up CloudWatch monitoring, health checks, and email alerts to track system performance and 
+quickly detect infrastructure failures. 
+CERTIFICATES 
+• Red Hat System Administration 1 (RH 124) | Red Hat | Certificate 
+• AWS Cloud Technical Essentials | Coursera | Certificate 
+• AWS Cloud Practitioner Essentials | AWS | Certificate 
+ACHIEVEMENTS 
+Mar’ 26 
+Nov’ 25 
+May’ 25 
+• Solved 250+ algorithmic problems on LeetCode, strengthening problem-solving skills and proficiency in data structures 
+and algorithms. 
+• Secured a Top 10 position in HackVerse 2024, a national-level hackathon, competing against multiple teams 
+and demonstrating strong coding and teamwork abilities. 
+EDUCATION  
+• Lovely Professional 
+University Bachelor of 
+Technology Information 
+Technology 
+Punjab, India 
+Aug’ 23 – Present 
+Bihar, India 
+•  D. B. Public School 
+Intermediate 
+Apr’ 21 – May’ 23 

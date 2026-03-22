@@ -1,41 +1,77 @@
-Designations: Backend Development,  Data Science/ML(Machine Learning)/AI(Aritifical Inteligence)
+Fresher Cloud Architecture Job Profile
+🔹 1. Role Overview
 
-Position Overview
-** This trainee program provides hands-on experience for engineering students looking to apply their academic knowledge in a professional environment. 
-** You will work alongside experienced engineers on real projects while developing critical skills in your chosen focus area.
+A Cloud Architecture (Entry-Level / Junior Cloud Engineer) role focuses on:
 
-Backend Development
-** Design and implement server-side architecture
-** Develop APIs and services using languages like Python, Java, or Node.js
-** Work with databases and ensure data integrity
-** Implement security and data protection measures
+Designing basic cloud infrastructure
+Supporting deployment of applications on cloud platforms
+Working with DevOps + backend + security teams
 
-Data Science/ML/AI
-** Analyze and interpret complex data sets
-** Create data models and algorithms to solve business problems
-** Develop data visualization tools to present insights
-** Collaborate with engineering teams to implement data-driven solutions
+👉 At fresher level, you're not expected to architect complex systems, but:
 
-Qualifications
-** Currently enrolled in 3rd/4th year of an engineering program (Computer Science, Software Engineering, or related field)
-** Strong programming fundamentals and problem-solving skills
-** Understanding of data structures and algorithms
-** Ability to learn quickly and adapt to new technologies
-** Excellent communication and teamwork skills
+Understand cloud concepts
+Assist in building scalable systems
+Follow best practices
+🔹 2. Common Job Titles
 
-Preferred Skills (Varies by Track)
-** Frontend: HTML/CSS, JavaScript, experience with at least one frontend framework
-** Backend: Experience with server-side languages, understanding of databases
-** Data Science: Knowledge of Python, statistics, and machine learning fundamentals
+You may see these names instead:
 
-Benefits
-** Paid training opportunity with potential for full-time employment
-** Mentorship from experienced professionals
-** Exposure to industry-standard tools and methodologies
-** Opportunity to work on real-world projects
-** Flexible schedule to accommodate academic commitments
+Junior Cloud Engineer
+Cloud Support Engineer
+AWS Cloud Associate
+DevOps Engineer (Fresher)
+Site Reliability Engineer (Entry-Level)
+🔹 3. Key Responsibilities
+⚙️ Infrastructure Setup
+Launch and manage servers (EC2, VMs)
+Configure storage (S3, buckets)
+Set up databases (RDS, MongoDB)
+🚀 Deployment Tasks
+Deploy apps using:
+Docker
+CI/CD pipelines (GitHub Actions, Jenkins)
+🔐 Security Basics
+Manage IAM users/roles
+Set permissions and policies
+📊 Monitoring
+Use tools like:
+CloudWatch
+Prometheus
+Grafana
+🛠️ Troubleshooting
+Fix deployment issues
+Debug server errors
+Handle downtime
+🔹 4. Required Skills (Fresher Level)
+☁️ Cloud Platforms (At least one)
+AWS (most in-demand)
+Azure / GCP (optional)
+💻 Core Tech Skills
+Linux basics (VERY important)
+Networking basics (IP, DNS, HTTP)
+Git & GitHub
+⚡ DevOps Tools
+Docker (must)
+CI/CD basics
+Kubernetes (basic understanding is a plus)
+🧑‍💻 Programming/Scripting
+JavaScript / Python / Bash
+🔹 5. Must-Know AWS Services (for Freshers)
 
-Salary Description:
-** Hiring Type: Internship (12 Months) with full-time conversion opportunity.
-** Compensation: Stipend: Rs. 30000 PM for 12 Months.  
-** Full-Time Offer: CTC Rs. 10 LPA.
+Focus on these first:
+
+EC2 (compute)
+S3 (storage)
+IAM (security)
+RDS (database)
+VPC (networking basics)
+CloudWatch (monitoring)
+🔹 6. Sample Daily Work (Realistic)
+
+A fresher might:
+
+Deploy a Node.js app on EC2
+Write a Dockerfile
+Fix a CI/CD pipeline error
+Monitor logs in CloudWatch
+Create IAM roles for a project
