@@ -1,68 +1,61 @@
-UTKARSH TIWARI 
-LinkedIn: https://linkedin.com/in/utkarsh781 
-GitHub: https://github.com/utkarsh7811 
-SKILLS 
-Email: utkarshtiwari2208@gmail.com 
-Mobile:+91-9771074677 
-• Languages: 
-C++, Java, C, SQL 
-• Cloud & Devops AWS (EC2, S3, RDS, VPC, Lambda), Microsoft Azure, Linux 
-• Tools/Platforms: 
-• Technical Skills: 
-• Soft Skills: 
-TRAINING 
-Git, GitHub, Docker, Vercel, VS Code 
-Data Structures and Algorithms (DSA), Object Oriented Programming (OOP) 
-Continuous Learning, Consistency, Adaptability 
-Design, Thinking & Figma – Summer Training (LPU) 
-Jun’ 25 – Jul’ 25 
-● Applied Design Thinking methodologies to solve user-centric problems, incorporating empathy mapping, ideation, and 
-concept validation. 
-● Created UI/UX prototypes in Figma, including wireframes, user flows, and interactive clickable mockups for 
-application concepts. 
-● Developed prototype solutions for an Emergency Response System and an Online Voting Platform, focusing on 
-usability and intuitive interface design. 
-PROJECTS 
-AWS Sandbox VPC Project | Github 
-Jan’ 26 – Feb’ 26 
-● Built a custom Virtual Private Cloud (VPC) architecture on AWS with public and private subnets across 
-multiple Availability Zones to achieve secure and high-availability infrastructure. 
-● Implemented core networking components such as Internet Gateway, NAT Gateway, Route Tables, and Security Groups 
-to control traffic routing and enforce network security policies. 
-● Provisioned EC2 instances within different subnet layers and configured a Bastion Host to enable secure 
-administrative access via SSH while maintaining private network isolation. 
-● Performed connectivity testing and validation to ensure proper communication between resources inside the cloud 
-environment. 
-Highly Available AWS Infrastructure with Auto Scaling & Monitoring | Github 
-Oct’ 25 – Nov’ 25 
-● Built a highly available cloud architecture across multiple Availability Zones using AWS VPC and Application 
-Load Balancer to ensure reliable traffic distribution and fault tolerance. 
-● Configured Auto Scaling Groups with CPU-based scaling policies to dynamically adjust compute capacity based 
-on workload demand. 
-● Integrated EC2 instances behind the load balancer to maintain service continuity and improve 
-application availability. 
-● Set up CloudWatch monitoring, health checks, and email alerts to track system performance and 
-quickly detect infrastructure failures. 
-CERTIFICATES 
-• Red Hat System Administration 1 (RH 124) | Red Hat | Certificate 
-• AWS Cloud Technical Essentials | Coursera | Certificate 
-• AWS Cloud Practitioner Essentials | AWS | Certificate 
-ACHIEVEMENTS 
-Mar’ 26 
-Nov’ 25 
-May’ 25 
-• Solved 250+ algorithmic problems on LeetCode, strengthening problem-solving skills and proficiency in data structures 
-and algorithms. 
-• Secured a Top 10 position in HackVerse 2024, a national-level hackathon, competing against multiple teams 
-and demonstrating strong coding and teamwork abilities. 
-EDUCATION  
-• Lovely Professional 
-University Bachelor of 
-Technology Information 
-Technology 
-Punjab, India 
-Aug’ 23 – Present 
-Bihar, India 
-•  D. B. Public School 
-Intermediate 
-Apr’ 21 – May’ 23 
+Surendra Mahla
+LinkedIn: linkedin.com/in/surendramahla00 Email: surendramahla087@gmail.com
+GitHub: github.com/surendramahla Mobile: +91-9462916907
+SKILLS
+• Languages: Python, Java, C, Cpp, JavaScript, HTML, CSS
+• Frameworks: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Java Swing, Figma
+• Tools/Platforms: MySQL, Microsoft Excel, Power BI
+• Soft Skills: Analytical Thinking, Problem-Solving, Adaptability, Collaboration
+PROJECTS
+Bank Deposit Subscription Prediction| Python, Pandas, Scikit-learn, Seaborn| Github Dec 2025
+• Developed a supervised machine learning model to predict customer subscription to bank term deposits using marketing campaign data.
+• Performed data preprocessing, feature encoding, scaling, and exploratory data analysis to identify key factors influencing customer
+decisions.
+• Trained and compared multiple classification algorithms including Logistic Regression, Decision Tree, KNN, Naive Bayes, and SVM using
+accuracy and confusion matrix metrics.
+• Applied cross-validation and visualized model insights using Matplotlib and Seaborn to support data-driven decision-making.
+Car Sales Analysis | Power BI | Github Dec 2025
+• Conducted comprehensive exploration of automobile transaction datasets to evaluate year-to-date, month-to-date, and year-over-year revenue
+performance across multiple market segments.
+• Examined purchasing patterns by vehicle body configuration, exterior palette, geographic distribution, and seasonal timelines to uncover meaningful
+commercial patterns.
+• Built interactive Power BI visualization dashboards presenting revenue progression, pricing indicators, and volume distribution, delivering actionable
+intelligence for strategic pricing, stock optimization, and promotional planning..
+TechInsights | Django, Python, SQLite, HTML, CSS, Bootstrap| Github Mar 2025
+• Architected a full-stack blogging platform with secure authentication, role-based access control, and complete CRUD functionality for blog and
+category management.
+• Designed relational data models using Django ORM to manage users, posts, and categories, ensuring scalable and efficient data handling.
+• Developed a responsive interface and admin dashboard using Bootstrap and Django templates to streamline content publishing and platform
+administration.
+Airline Management System | Java, Swing, MySQL| Github Dec 2025
+• Engineered a desktop-based airline management system using Java Swing, enabling efficient management of flight schedules, passenger records,
+staff information, and ticket booking operations through an interactive GUI.
+• Designed and integrated a MySQL relational database to manage operational data, implementing secure authentication and complete CRUD
+functionality for reliable data storage and retrieval.
+• Developed a user-friendly graphical interface and structured workflow modules to streamline airline administrative processes and improve overall
+system usability and data management efficiency.
+TRAINING
+Airline Management System | Java Swing + MySQL | Link Jun 2025 – Jul 2025
+• Designed and implemented a GUI-based airline booking system integrated with MySQL using optimized SQL queries.
+• Developed features such as passenger data entry, flight selection, and automated booking
+confirmation.
+• Applied data validation and preprocessing techniques to ensure accurate and efficient record handling.
+CERTIFICATES
+• CloudComputing – NPTEL | Link Jul– Oct 2025
+• Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate | Link Jul- Aug 2025
+• Oracle Data Platform 2025 Certified Foundations Associate | Link Aug 2025
+• Oracle Fusion Cloud HCM Certified Foundations Associate – Oracle | Link May 2025
+• Java Maestro: Hands-On Training on Developing GUI Applications | Link Jun-Jul 2025
+• Data Analytics Job Simulation – Quantium & Forage | Link May-Jun 2025
+• Data Visualization – Tata & Forage | Link May-Jun 2025
+ACHIEVEMENTS
+Club Activities &Event Contributions
+• Received appreciation for contributing to the successful organization of CHAKRAVYUH – Capture the Flag (CTF) held on 1st March 2025.
+• Recognized for valuable efforts in organizing TRINETRA – Hackathon conducted on 8th–9th February 2025.
+EDUCATION
+Lovely Professional University Phagwara, Punjab
+•
+Bachelor of Technology - Computer Science and Engineering - CGPA: 6.8 Jun 2023 -Present
+Kota Career Point, Kuchaman Nagaur, Rajasthan
+•
+Intermediate - Percentage: 85 Apr 2021 - Mar 2022
