@@ -1,61 +1,62 @@
-Surendra Mahla
-LinkedIn: linkedin.com/in/surendramahla00 Email: surendramahla087@gmail.com
-GitHub: github.com/surendramahla Mobile: +91-9462916907
+• Lovely Professional University
+Bachelor of Technology
+Computer Science and Engineering: CGPA: 7.3
+Valley View School
+Intermediate: PCM
+Percentage: 63%
+Valley View School
+Matriculation
+Percentage: 83%
+Punjab, India
+Aug’ 23 – Present
+• Jamshedpur, India
+Apr’ 22 – Mar’ 23
+• Jamshedpur, India
+Apr’ 20 – Mar’ 21
+Gaurav Nayyar
+LinkedIn: https://www.linkedin.com/in/nayyar-gaurav/ Email: gauravnayyar8603@gmail.com
+GitHub: https://github.com/G4uravXDev Mobile: +91-6287231231
 SKILLS
-• Languages: Python, Java, C, Cpp, JavaScript, HTML, CSS
-• Frameworks: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Java Swing, Figma
-• Tools/Platforms: MySQL, Microsoft Excel, Power BI
-• Soft Skills: Analytical Thinking, Problem-Solving, Adaptability, Collaboration
+• Languages: Python, Java, JavaScript, HTML and CSS
+• Frameworks: ReactJS, NodeJS, ExpressJS, Tailwind CSS, Rest API, SpringBoot
+• Databases: MySQL, MongoDB, PostgresSQL
+• Tools/Platforms: Git, Postman, Firebase, Supabase, Figma, Power Automate, N8N
+• Technical Skills: Data Structures and Algorithms (DSA), Object Oriented Programming (OOPs)
+• Soft Skills: Continuous Learning, Consistency, Adaptability, Leadership, Problem Solving
+EXPERIENCE
+Summer Trainee | Lovely Professional University | Certificate Jun’ 25 – July’ 25
+ Built a comprehensive cybercrime awareness web portal featuring informational content, interactive
+modules, and an admin panel for managing educational resources and users.
+ Developed a role-based admin dashboard to create, update, and organize cybersecurity topics,
+simulations, and awareness tasks for learners.
+ Implemented a full-stack TypeScript application with separate client and server components, enabling
+seamless content delivery and secure backend operations.
+Tech Stack: Tailwind CSS, ReactJs, Firebase, GeminiAPI, TypeScript, NodeJS
 PROJECTS
-Bank Deposit Subscription Prediction| Python, Pandas, Scikit-learn, Seaborn| Github Dec 2025
-• Developed a supervised machine learning model to predict customer subscription to bank term deposits using marketing campaign data.
-• Performed data preprocessing, feature encoding, scaling, and exploratory data analysis to identify key factors influencing customer
-decisions.
-• Trained and compared multiple classification algorithms including Logistic Regression, Decision Tree, KNN, Naive Bayes, and SVM using
-accuracy and confusion matrix metrics.
-• Applied cross-validation and visualized model insights using Matplotlib and Seaborn to support data-driven decision-making.
-Car Sales Analysis | Power BI | Github Dec 2025
-• Conducted comprehensive exploration of automobile transaction datasets to evaluate year-to-date, month-to-date, and year-over-year revenue
-performance across multiple market segments.
-• Examined purchasing patterns by vehicle body configuration, exterior palette, geographic distribution, and seasonal timelines to uncover meaningful
-commercial patterns.
-• Built interactive Power BI visualization dashboards presenting revenue progression, pricing indicators, and volume distribution, delivering actionable
-intelligence for strategic pricing, stock optimization, and promotional planning..
-TechInsights | Django, Python, SQLite, HTML, CSS, Bootstrap| Github Mar 2025
-• Architected a full-stack blogging platform with secure authentication, role-based access control, and complete CRUD functionality for blog and
-category management.
-• Designed relational data models using Django ORM to manage users, posts, and categories, ensuring scalable and efficient data handling.
-• Developed a responsive interface and admin dashboard using Bootstrap and Django templates to streamline content publishing and platform
-administration.
-Airline Management System | Java, Swing, MySQL| Github Dec 2025
-• Engineered a desktop-based airline management system using Java Swing, enabling efficient management of flight schedules, passenger records,
-staff information, and ticket booking operations through an interactive GUI.
-• Designed and integrated a MySQL relational database to manage operational data, implementing secure authentication and complete CRUD
-functionality for reliable data storage and retrieval.
-• Developed a user-friendly graphical interface and structured workflow modules to streamline airline administrative processes and improve overall
-system usability and data management efficiency.
-TRAINING
-Airline Management System | Java Swing + MySQL | Link Jun 2025 – Jul 2025
-• Designed and implemented a GUI-based airline booking system integrated with MySQL using optimized SQL queries.
-• Developed features such as passenger data entry, flight selection, and automated booking
-confirmation.
-• Applied data validation and preprocessing techniques to ensure accurate and efficient record handling.
+Cybersecurity Awareness Portal | Live | Github Sept’ 25 – Oct’ 25
+ Built a comprehensive cybercrime awareness web portal featuring informational content, interactive
+modules, and an admin panel for managing educational resources and users.
+ Developed a role-based admin dashboard to create, update, and organize cybersecurity topics,
+simulations, and awareness tasks for learners.
+ Implemented a full-stack TypeScript application with separate client and server components, enabling
+seamless content delivery and secure backend operations.
+Tech Stack: Tailwind CSS, ReactJs, Firebase, GeminiAPI, TypeScript, NodeJS
+EventOne | Event Management Platform | Live | Github Dec’ 25 -– Jan’ 26
+ Engineered a scalable event management web application with role-based access control (RBAC) for
+admins, organizers, and attendees.
+ Integrated secure payment processing with automated QR-based ticket generation and verification.
+ Containerized the application using Docker and deployed behind Cloudflare for enhanced security and
+scalability.
+Tech Stack: TailwindCss, ReactJs, Firebase, GeminiAPI, NodeJS, ExpressJS, PosegreSQL
 CERTIFICATES
-• CloudComputing – NPTEL | Link Jul– Oct 2025
-• Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate | Link Jul- Aug 2025
-• Oracle Data Platform 2025 Certified Foundations Associate | Link Aug 2025
-• Oracle Fusion Cloud HCM Certified Foundations Associate – Oracle | Link May 2025
-• Java Maestro: Hands-On Training on Developing GUI Applications | Link Jun-Jul 2025
-• Data Analytics Job Simulation – Quantium & Forage | Link May-Jun 2025
-• Data Visualization – Tata & Forage | Link May-Jun 2025
+• Cloud Computing | NPTEL | Certificate Oct’ 25
+• Concepts in SQL | Coursera | Certificate Sept’ 25
+• Foundations of User Experience (UX) Design | Coursera | Certificate Sept’ 25
 ACHIEVEMENTS
-Club Activities &Event Contributions
-• Received appreciation for contributing to the successful organization of CHAKRAVYUH – Capture the Flag (CTF) held on 1st March 2025.
-• Recognized for valuable efforts in organizing TRINETRA – Hackathon conducted on 8th–9th February 2025.
+• Core Member at AWS Cloud Community, delivering and managing 10+ technical sessions Jan’24 - Present
+ on AWS, cloud fundamentals, and modern web development.
+• AI/ML Track Winner at InnovateX Hackathon, organized by IIIT Kalyani, for building an innovative Feb’ 26
+ AI/ML solution as part of team LogicXDev, competing against top student developers.
+• Solved 120+ algorithmic problems on LeetCode focusing on data structures, dynamic Feb’ 26
+ programming, graph algorithms, and optimization techniques.
 EDUCATION
-Lovely Professional University Phagwara, Punjab
-•
-Bachelor of Technology - Computer Science and Engineering - CGPA: 6.8 Jun 2023 -Present
-Kota Career Point, Kuchaman Nagaur, Rajasthan
-•
-Intermediate - Percentage: 85 Apr 2021 - Mar 2022

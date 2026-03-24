@@ -1,4 +1,1 @@
-Data science 
-skills
-power bi
-pyhthon
+A Backend Developer at Springboard is responsible for designing, building, and maintaining the server-side logic that powers web and mobile applications. The role involves developing scalable APIs, managing databases, ensuring data security, and optimizing application performance. Backend developers at Springboard typically work with modern technologies such as Java, Spring Boot, Node.js, or Python, and collaborate closely with frontend developers, product managers, and DevOps teams to deliver seamless user experiences. They also focus on writing clean, maintainable code, implementing authentication systems, handling integrations with third-party services, and ensuring the reliability and efficiency of the platform’s backend infrastructure.
