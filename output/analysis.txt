@@ -1,1 +1,39 @@
-Error generating response
+**REJECTED**
+
+Surendra, you are nowhere near the level required for a top-tier tech company (FAANG/MAANG or high-growth unicorns). Your profile is the definition of a "template" student—someone who follows a curriculum but shows zero initiative, specialized depth, or professional maturity.
+
+Here is the brutal breakdown of why your CV is heading straight for the trash.
+
+### 1. Clear Reasons for Rejection
+*   **The GPA Red Flag:** A 6.8 CGPA is an immediate disqualifier. Most top tech firms have an 8.0 or 8.5 cutoff just to clear the automated filters. A 6.8 tells me you either struggled with the fundamentals or didn't put in the effort.
+*   **Future Dating / Accuracy Issues:** Your CV lists project completion dates like "Dec 2025" and "June 2025." We are currently in 2024/early 2025. This shows extreme carelessness. If you can’t audit your own CV for basic chronological logic, I can’t trust you with our production data.
+*   **Zero Professional Experience:** You have no internships. "Training" is not work experience. It’s just more school. Without a single day spent in a real professional environment, you are a high-risk hire.
+*   **Project Depth:** Your projects are "Tutorial Hell" projects. Every student in the world does a "Bank Deposit Prediction" or a "Car Sales Dashboard" from a Kaggle dataset. There is no original thought here.
+
+### 2. Missing Critical Skills
+For a Data Science role, you are missing the "Science" and the "Engineering":
+*   **Mathematical Depth:** No mention of Statistics, Linear Algebra, or Calculus—the backbone of DS.
+*   **Advanced SQL:** You listed MySQL, but can you write window functions, CTEs, or optimize a query? Your CV suggests "Basic CRUD" only.
+*   **Deployment/MLOps:** You know how to train a model in a notebook, but do you know how to deploy it? I see no Docker, no Kubernetes, no AWS/Azure/GCP, and no API frameworks like FastAPI or Flask for model serving.
+*   **Big Data Tools:** No Spark, No Kafka, No NoSQL.
+
+### 3. Weak or Vague Bullet Points
+*   *"Performed data preprocessing, feature encoding, scaling..."* — This is a list of steps from a textbook. Tell me **what** specific challenge the data had. Was it imbalanced? Did it have 40% missing values? How did your specific choice affect the outcome?
+*   *"Delivering actionable intelligence for strategic pricing..."* — This is corporate fluff. You are a student using a static dataset. You didn't "deliver intelligence" to anyone. Did the "pricing" actually change? No.
+*   *"Improved overall system usability and data management efficiency."* — How? By what percentage? How did you measure "usability"? This is filler text.
+
+### 4. ATS Issues
+*   **Quantification:** You have zero metrics. A recruiter looks for: "Improved accuracy by X%," "Reduced processing time by Y seconds," or "Analyzed Z million rows." Your CV has none of this.
+*   **Role Confusion:** You are applying for Data Science but half your CV is about Java Swing and Django. You are spreading yourself too thin. A Data Science recruiter doesn't care about your "Airline Management System" built in an obsolete Java framework (Swing).
+
+### 5. What Makes This Candidate Average
+You have followed the "Generic Indian Engineering Student" path perfectly:
+1.  Go to a Tier-3/4 university.
+2.  Do the exact same Forage/Quantium simulations that 500,000 other students have on their CVs.
+3.  Collect "Foundations" certificates from Oracle/NPTEL that prove you watched a video, not that you can build a product.
+4.  Organize a college event (Trinetra/Chakravyuh) and mistake it for a professional achievement.
+
+### Final Verdict:
+You are a **Junior Learner**, not a **Data Scientist**. To get into a top tech company, you need to delete the Java Swing projects, fix your GPA narrative, build an actual end-to-end data product that solves a *real* problem (not a Kaggle set), and get an internship immediately. 
+
+**Status: Do Not Proceed.**
