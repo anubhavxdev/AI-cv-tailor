@@ -1,66 +1,61 @@
-This CV is rewritten to pass Applicant Tracking Systems (ATS) by using a clean, single-column layout, standard section headings, and a focus on "Data Science" keywords. It transforms your academic projects into professional-sounding experiences with measurable results.
+**GAURAV NAYYAR**  
+Jamshedpur, India | +91-6287231231 | gauravnayyar8603@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/nayyar-gaurav/) | [GitHub](https://github.com/G4uravXDev) | [Portfolio/Live Links]
 
-***
+---
 
-# SURENDRA MAHLA
-**Location:** [City, State, India] | **Phone:** +91-9462916907
-**Email:** surendramahla087@gmail.com | **LinkedIn:** linkedin.com/in/surendramahla00
-**GitHub:** github.com/surendramahla | **Portfolio:** [Link to Portfolio/GitHub]
+### **TECHNICAL SKILLS**
+*   **Languages:** Java, Python, JavaScript (ES6+), TypeScript, SQL (PostgreSQL, MySQL).
+*   **Backend Development:** Spring Boot, Node.js, Express.js, RESTful API Design, Microservices.
+*   **Databases & Caching:** PostgreSQL, MongoDB, MySQL, Redis, Firebase, Supabase.
+*   **DevOps & Tools:** Docker, Git/GitHub, AWS (EC2, S3), Postman, CI/CD (GitHub Actions), Nginx.
+*   **Core Concepts:** Data Structures & Algorithms (DSA), OOPs, System Design, ACID Properties, JWT Authentication.
 
-### PROFESSIONAL SUMMARY
-Aspiring Data Scientist and Analyst with a strong foundation in Python, SQL, and Power BI. Experienced in building predictive machine learning models and interactive business intelligence dashboards. Proven ability to translate complex datasets into actionable insights that drive efficiency and strategic decision-making.
+---
 
-### TECHNICAL SKILLS
-*   **Languages:** Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn), SQL (MySQL), Java, C++, HTML/CSS.
-*   **Data Visualization:** Power BI (DAX, Power Query), Excel (Advanced), Tableau.
-*   **Machine Learning:** Supervised Learning (Regression, Classification), Feature Engineering, SMOTE, Cross-Validation, EDA.
-*   **Tools & Databases:** Git/GitHub, MySQL, Jupyter Notebooks, VS Code, Oracle Cloud (OCI).
-*   **Soft Skills:** Analytical Thinking, Data Storytelling, Problem-Solving, Collaboration.
+### **PROFESSIONAL EXPERIENCE**
 
-### DATA SCIENCE PROJECTS
+**Software Engineering Intern** | Lovely Professional University  
+*Jun 2024 – Aug 2024*
+*   **Architected** a full-stack security awareness platform using **Node.js** and **TypeScript**, implementing **JWT-based authentication** and Bcrypt hashing to secure 500+ simulated user profiles.
+*   **Optimized** server-side response times by **25%** through **MongoDB indexing** and query optimization, ensuring seamless delivery of interactive modules.
+*   **Developed** a role-based access control (RBAC) admin dashboard, enabling real-time management of educational resources and user progress tracking.
+*   **Integrated** the **Gemini API** to provide AI-driven personalized cybersecurity recommendations based on user quiz performance.
 
-**Bank Deposit Subscription Prediction | Python, Scikit-learn, Seaborn**
-*   **Engineered a predictive pipeline** for 10,000+ customer records to identify high-probability term deposit subscribers.
-*   Implemented **SMOTE (Synthetic Minority Over-sampling Technique)** to address class imbalance, resulting in a **15% increase in Model Recall**.
-*   Evaluated multiple algorithms (Logistic Regression, KNN, SVM, Random Forest), achieving a peak **accuracy of 89%** using Random Forest.
-*   Visualized feature importance to identify key drivers of customer conversion, providing data-driven recommendations for marketing spend.
+---
 
-**Car Sales Performance Dashboard | Power BI, DAX, Excel**
-*   **Developed an interactive Power BI dashboard** to track YTD and YoY revenue performance across multiple geographic segments.
-*   Utilized **DAX expressions** to automate complex calculations for profit margins and sales growth, reducing manual reporting time by **20 hours per month**.
-*   Identified 3 underperforming market segments by analyzing purchasing patterns across vehicle configurations and seasonal timelines.
-*   **Optimized data refresh schedules** and cleaned messy transaction datasets to ensure 100% data integrity for executive reporting.
+### **TECHNICAL PROJECTS**
 
-**Airline Management System | Java, MySQL, SQL Optimization**
-*   Designed a robust relational database to manage flight schedules and passenger records for a high-traffic desktop application.
-*   **Optimized complex SQL queries** using Indexing and CTEs, reducing data retrieval latency by **35%**.
-*   Implemented secure CRUD functionality and data validation protocols to ensure reliable record handling and system security.
+**Scalable E-Commerce Backend** | *Java, Spring Boot, PostgreSQL, Docker*  
+*   **Designed** a microservices-based architecture for an e-commerce platform, utilizing **Spring Cloud Gateway** for centralized API routing and security.
+*   **Implemented** a **PostgreSQL** schema with optimized indexing, ensuring **ACID-compliant transactions** for high-concurrency inventory management.
+*   **Containerized** the application using **Docker**, reducing environment setup time by **90%** and ensuring parity across development and production.
+*   **Achieved** 95% unit test coverage using **JUnit** and **Mockito**, identifying and resolving critical bugs before deployment.
 
-**TechInsights (Full-Stack Blog Platform) | Django, SQLite, Python**
-*   Architected a relational data model using **Django ORM** to handle users, categories, and posts efficiently.
-*   Developed a responsive administrative dashboard to streamline content management and user role-based access control.
+**EventOne – Management Platform** | *Node.js, Express, PostgreSQL, Cloudflare*  
+*   **Engineered** a scalable event management system supporting **500+ concurrent requests** using Node.js clustering and PostgreSQL.
+*   **Integrated** secure payment processing with automated **QR-based ticket generation**, reducing manual check-in time by **40%**.
+*   **Deployed** the application behind **Cloudflare** for DDoS protection and optimized content delivery via global edge locations.
+*   **Automated** transaction status updates using **Webhooks**, achieving a 99.9% success rate for real-time payment notifications.
 
-### PROFESSIONAL EXPERIENCE / VIRTUAL INTERNSHIPS
-**Data Analytics Virtual Experience | Quantium & Forage** | *May 2024 – June 2024*
-*   Conducted deep-dive data analysis on supermarket transaction data to identify customer segments and purchasing behaviors.
-*   Presented actionable insights on sales trends and product performance using data visualization techniques.
+---
 
-**Data Visualization Virtual Experience | Tata & Forage** | *May 2024 – June 2024*
-*   Created high-impact visualizations for senior stakeholders to answer critical business questions regarding revenue and market share.
+### **ACHIEVEMENTS & LEADERSHIP**
+*   **Winner (AI/ML Track):** InnovateX Hackathon (IIIT Kalyani). Developed an AI-driven solution competing against 50+ teams.
+*   **Core Member, AWS Cloud Community:** Delivered **10+ technical sessions** on AWS Fundamentals and Modern Web Development for a community of 200+ students.
+*   **Competitive Programming:** Solved **120+ problems** on LeetCode (Top 20% ranking) focusing on Dynamic Programming, Graph Theory, and Optimization.
+*   **Certified:** Cloud Computing (NPTEL), SQL Foundations (Coursera), UX Design (Google).
 
-### EDUCATION
-**Bachelor of Technology in Computer Science & Engineering** | *Expected 2027*
-Lovely Professional University, Phagwara, Punjab
+---
 
-**Intermediate (Class XII)** | *Completed 2022*
-Kota Career Point, Rajasthan | **Percentage: 85%**
+### **EDUCATION**
 
-### CERTIFICATIONS
-*   **Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate**
-*   **Oracle Data Platform 2025 Certified Foundations Associate**
-*   **Cloud Computing** – NPTEL
-*   **Java Maestro:** Training on Developing GUI Applications
+**Bachelor of Technology (Computer Science & Engineering)**  
+*Lovely Professional University, Punjab, India* | **CGPA: 7.3/10** | *Expected May 2026*
+*   **Relevant Coursework:** Database Management Systems, Operating Systems, Computer Networks, Software Engineering.
 
-### ACHIEVEMENTS & LEADERSHIP
-*   **Organizer:** Successfully coordinated "TRINETRA" Hackathon (Feb 2025), managing logistics for 100+ participants.
-*   **Contributor:** Recognized for efforts in organizing "CHAKRAVYUH" – Capture the Flag (CTF) security event (March 2025).
+**Intermediate (PCM)**  
+*Valley View School, Jamshedpur* | **Percentage: 63%** | *Mar 2023*
+
+**Matriculation**  
+*Valley View School, Jamshedpur* | **Percentage: 83%** | *Mar 2021*
